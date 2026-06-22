@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangers Open Air - Dashboard Digital</title>
+    <meta name="description" content="Dashboard digital oficial do projeto Bangers Open Air 2027. Escopo, contratos e renovação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="brand">
+                <h1>BANGERS</h1>
+                <span class="subtitle">Open Air 2027</span>
+            </div>
+            <nav class="tabs-nav">
+                <button class="tab-btn active" data-target="contrato">Contrato V1</button>
+                <button class="tab-btn" data-target="escopo">Escopo Entregue</button>
+                <button class="tab-btn" data-target="renovacao">Renovação V2</button>
+                <button class="tab-btn" data-target="galeria">Galeria de Telas</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Tab: Contrato V1 -->
+        <section id="contrato" class="tab-content active">
+            <h2 class="section-title">Dados do Contrato V1</h2>
+            <div class="grid-2">
+                <div class="glass-card">
+                    <h3>Contratante (Cliente)</h3>
+                    <ul class="data-list">
+                        <li><strong>Razão Social:</strong> HOFFMAN & OBRIAN MARKETING ARTISTICO E ENTRETENIMENTO EIRELI</li>
+                        <li><strong>CNPJ:</strong> 12.796.468/0001-13</li>
+                        <li><strong>Endereço:</strong> Rua Anhaia, 253 - Vila Curuçá, Santo André/SP</li>
+                        <li><strong>Representante:</strong> Damaris de Oliveira Silva</li>
+                        <li><strong>Contato:</strong> info@hoffmanobrian.com.br</li>
+                    </ul>
+                </div>
+                <div class="glass-card">
+                    <h3>Contratada (Fornecedor)</h3>
+                    <ul class="data-list">
+                        <li><strong>Razão Social:</strong> STARKEN TECNOLOGIA</li>
+                        <li><strong>CNPJ:</strong> 62.839.769/0001-55</li>
+                        <li><strong>Endereço:</strong> Rua Almirante Barroso, 1004, Blumenau/SC</li>
+                        <li><strong>Representante:</strong> Victor Augusto Lapegna</li>
+                        <li><strong>Contato:</strong> victor@gcmg.online</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="glass-card mt-2 glow-border">
+                <h3>Termos Financeiros</h3>
+                <div class="finance-grid">
+                    <div class="finance-item">
+                        <span class="label">Objeto</span>
+                        <span class="value">Desenvolvimento PWA + App Nativo (iOS/Android)</span>
+                    </div>
+                    <div class="finance-item">
+                        <span class="label">Valor Total</span>
+                        <span class="value highlight">R$ 30.000,00</span>
+                    </div>
+                    <div class="finance-item">
+                        <span class="label">Fee Mensal V1</span>
+                        <span class="value text-gold">R$ 2.000,00/mês</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Escopo Entregue -->
+        <section id="escopo" class="tab-content">
+            <h2 class="section-title">Escopo Técnico Entregue (V1)</h2>
+            <p class="section-desc">Módulos e funcionalidades desenvolvidas na versão 1.0.</p>
+            
+            <div class="scope-grid">
+                <div class="glass-card module-card">
+                    <div class="module-header">
+                        <div class="icon-placeholder">🌐</div>
+                        <h3>Web PWA</h3>
+                    </div>
+                    <ul class="feature-list">
+                        <li><strong>Home:</strong> Destaques de eventos, banners.</li>
+                        <li><strong>Line Up:</strong> Lista de artistas e palcos.</li>
+                        <li><strong>Minha Agenda:</strong> Shows favoritos.</li>
+                        <li><strong>Mapa:</strong> Localização interativa.</li>
+                        <li><strong>Loja & Checkout:</strong> Produtos com pagamento.</li>
+                        <li><strong>Ingressos:</strong> QR Code e gestão.</li>
+                        <li><strong>Autenticação:</strong> Login e Perfil.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card module-card">
+                    <div class="module-header">
+                        <div class="icon-placeholder">📱</div>
+                        <h3>App Flutter Nativo</h3>
+                    </div>
+                    <ul class="feature-list">
+                        <li><strong>Home:</strong> Carrossel de destaques.</li>
+                        <li><strong>Line Up:</strong> Favoritação e filtros.</li>
+                        <li><strong>Agenda:</strong> Arraste-e-solte e lembretes.</li>
+                        <li><strong>Mapa Nativo:</strong> Geolocalização e rotas.</li>
+                        <li><strong>Loja & Wallets:</strong> Apple Pay e Google Pay.</li>
+                        <li><strong>Ingressos:</strong> Integração Apple Wallet.</li>
+                        <li><strong>Push Notifications:</strong> Alertas em tempo real.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card module-card">
+                    <div class="module-header">
+                        <div class="icon-placeholder">⚙️</div>
+                        <h3>Painel Administrativo</h3>
+                    </div>
+                    <ul class="feature-list">
+                        <li><strong>Dashboard:</strong> Visão consolidada de KPIs.</li>
+                        <li><strong>Bandas:</strong> Cadastro e agendas.</li>
+                        <li><strong>Patrocinadores:</strong> Logos e contratos.</li>
+                        <li><strong>Broadcast:</strong> Envio de Push e E-mails em lote.</li>
+                        <li><strong>CRM (Básico):</strong> Listagem de contatos e exportação.</li>
+                        <li><strong>Configurações:</strong> Temas e limites.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Renovação V2 -->
+        <section id="renovacao" class="tab-content">
+            <h2 class="section-title">Planos de Renovação (V2)</h2>
+            <p class="section-desc">Simulador de pacotes para o ecossistema digital de 2027.</p>
+
+            <div class="pricing-cards">
+                <!-- Plano 1 -->
+                <div class="glass-card pricing-card" data-plan="essential" onclick="selectPlan('essential')">
+                    <div class="plan-header">
+                        <h3>Essential</h3>
+                        <div class="price">R$ 1.500<span>/mês</span></div>
+                        <p class="plan-focus">Sustentação básica do App</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">Manutenção do App</li>
+                        <li class="excluded">Novo Website Oficial</li>
+                        <li class="excluded">Integração App + Site</li>
+                        <li class="excluded">CRM Integrado</li>
+                        <li class="excluded">Quiz Gamificado</li>
+                    </ul>
+                    <button class="action-btn">Selecionar</button>
+                </div>
+
+                <!-- Plano 2 -->
+                <div class="glass-card pricing-card recommended" data-plan="experience" onclick="selectPlan('experience')">
+                    <div class="badge">Recomendado</div>
+                    <div class="plan-header">
+                        <h3>Experience</h3>
+                        <div class="price">R$ 2.500<span>/mês</span></div>
+                        <p class="plan-focus">App + Novo Web Integrado</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">Manutenção do App</li>
+                        <li class="included">Novo Website Oficial</li>
+                        <li class="included">Integração App + Site</li>
+                        <li class="excluded">CRM Integrado</li>
+                        <li class="excluded">Quiz Gamificado</li>
+                    </ul>
+                    <button class="action-btn highlight-btn">Selecionar</button>
+                </div>
+
+                <!-- Plano 3 -->
+                <div class="glass-card pricing-card" data-plan="ecosystem" onclick="selectPlan('ecosystem')">
+                    <div class="plan-header">
+                        <h3>Ecosystem</h3>
+                        <div class="price">R$ 4.000<span>/mês</span></div>
+                        <p class="plan-focus">Plataforma Completa Premium</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">Manutenção do App</li>
+                        <li class="included">Novo Website Oficial</li>
+                        <li class="included">Integração App + Site</li>
+                        <li class="included">CRM Completo & Push</li>
+                        <li class="included">Quiz Gamificado + VIP</li>
+                    </ul>
+                    <button class="action-btn">Selecionar</button>
+                </div>
+            </div>
+
+            <div id="plan-details" class="glass-card mt-2 hidden-initially">
+                <h3 id="detail-title">Resumo do Plano</h3>
+                <p id="detail-desc"></p>
+                <div class="finance-item mt-1">
+                    <span class="label">Diferença vs V1 (R$ 2.000):</span>
+                    <span id="detail-diff" class="value text-gold"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Galeria -->
+        <section id="galeria" class="tab-content">
+            <h2 class="section-title">Galeria de Telas</h2>
+            <p class="section-desc">Visualização do App V1</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="Prints/Home Loading.png" alt="Home Loading" loading="lazy"></div>
+                <div class="gallery-item"><img src="Prints/home 1.png" alt="Home 1" loading="lazy"></div>
+                <div class="gallery-item"><img src="Prints/home 2.png" alt="Home 2" loading="lazy"></div>
+                <div class="gallery-item"><img src="Prints/ingressos 1.png" alt="Ingressos 1" loading="lazy"></div>
+                <div class="gallery-item"><img src="Prints/menu mapa do evento.png" alt="Mapa" loading="lazy"></div>
+                <div class="gallery-item"><img src="Prints/loja 1.png" alt="Loja" loading="lazy"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Tab Navigation
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetId = btn.getAttribute('data-target');
+                
+                // Reset active states
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                
+                // Set active states
+                btn.classList.add('active');
+                document.getElementById(targetId).classList.add('active');
+            });
+        });
+
+        // Plan Simulator
+        const plans = {
+            essential: {
+                title: "Plano Essential",
+                desc: "Foco na sustentação operacional do aplicativo atual. Não inclui novas features web ou integrações avançadas.",
+                price: 1500,
+                diff: "Economia de R$ 500/mês"
+            },
+            experience: {
+                title: "Plano Experience",
+                desc: "Recomendado para unificar a experiência da marca, desenvolvendo o novo website alinhado com o aplicativo mobile.",
+                price: 2500,
+                diff: "Acréscimo de R$ 500/mês"
+            },
+            ecosystem: {
+                title: "Plano Ecosystem",
+                desc: "A solução definitiva de relacionamento. Transforma o app e site em uma plataforma completa de CRM e engajamento gamificado.",
+                price: 4000,
+                diff: "Acréscimo de R$ 2.000/mês"
+            }
+        };
+
+        function selectPlan(planKey) {
+            document.querySelectorAll('.pricing-card').forEach(card => {
+                card.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+                card.style.boxShadow = 'none';
+            });
+            
+            const selectedCard = document.querySelector(`[data-plan="${planKey}"]`);
+            selectedCard.style.borderColor = 'var(--accent-primary)';
+            selectedCard.style.boxShadow = '0 0 20px rgba(255, 81, 47, 0.3)';
+
+            const details = document.getElementById('plan-details');
+            details.classList.remove('hidden-initially');
+            
+            document.getElementById('detail-title').innerText = plans[planKey].title;
+            document.getElementById('detail-desc').innerText = plans[planKey].desc;
+            document.getElementById('detail-diff').innerText = plans[planKey].diff;
+            
+            if(plans[planKey].price < 2000) {
+                document.getElementById('detail-diff').className = 'value text-success';
+            } else {
+                document.getElementById('detail-diff').className = 'value text-gold';
+            }
+        }
+    </script>
+</body>
+</html>
