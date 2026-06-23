@@ -527,3 +527,191 @@ body {
     color: var(--text-muted);
     line-height: 1.5;
 }
+
+/* Timeline Styles */
+.timeline-container {
+    position: relative;
+    margin: 40px 0;
+    padding-left: 20px;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 8px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--accent-success), var(--accent-secondary), var(--accent-primary), rgba(255,255,255,0.05));
+    border-radius: 2px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--bg-base);
+    border: 3px solid var(--accent-primary);
+    box-shadow: 0 0 10px var(--accent-primary);
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.status-completed .timeline-dot {
+    border-color: var(--accent-success);
+    box-shadow: 0 0 12px var(--accent-success);
+}
+
+.status-immediate .timeline-dot {
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 12px var(--accent-secondary);
+}
+
+.status-pending .timeline-dot {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 10px var(--accent-gold);
+}
+
+.timeline-content {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item:hover .timeline-content {
+    background: var(--bg-glass-hover);
+    border-color: var(--border-glass-hover);
+    transform: translateX(5px);
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.timeline-phase {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    color: var(--accent-secondary);
+}
+
+.status-completed .timeline-phase {
+    color: var(--accent-success);
+}
+
+.status-immediate .timeline-phase {
+    color: var(--accent-secondary);
+}
+
+.status-pending .timeline-phase {
+    color: var(--accent-gold);
+}
+
+.timeline-title {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+    margin-right: auto;
+}
+
+.timeline-time {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.timeline-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.timeline-tasks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 20px;
+}
+
+.task-group h4 {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.task-group h4::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--accent-secondary);
+}
+
+.status-completed .task-group h4::before {
+    background-color: var(--accent-success);
+}
+
+.status-immediate .task-group h4::before {
+    background-color: var(--accent-secondary);
+}
+
+.status-pending .task-group h4::before {
+    background-color: var(--accent-gold);
+}
+
+.task-group ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.task-group ul li {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.4;
+}
+
+.task-group ul li::before {
+    content: '▪';
+    position: absolute;
+    left: 0;
+    color: rgba(255,255,255,0.2);
+}
+

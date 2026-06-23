@@ -242,44 +242,161 @@
 
                 <section id="roadmap" class="doc-section">
                     <h2 class="doc-heading">6. Roadmap de Implementação</h2>
+                    <p class="doc-text">Considerando o tempo de mercado do festival, otimizamos o cronograma para uma implementação altamente ágil e sequencial. Em vez de 8 meses, estruturamos o rollout completo do ecossistema e das IAs em <strong>12 semanas (3 meses)</strong>, garantindo que tudo esteja testado, homologado e captando dados bem antes da data de início de venda dos ingressos principais.</p>
                     
-                    <div class="table-responsive">
-                        <table class="doc-table">
-                            <thead>
-                                <tr>
-                                    <th>Fase</th>
-                                    <th>Descrição</th>
-                                    <th>Status / Prazo</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><strong>Fase 0/1</strong></td>
-                                    <td>Entrega App V1 & Infraestrutura Base (iOS/Android/PWA)</td>
-                                    <td><span class="status-badge success">✅ Em andamento</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Aprovação</strong></td>
-                                    <td>Aprovação desta Estratégia Comercial + Kick-off V2</td>
-                                    <td><span class="status-badge info">Imediato</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Fase 2</strong></td>
-                                    <td>BANGERS CORE (E-commerce + Base de Dados Unificada)</td>
-                                    <td><span class="status-badge pending">Mês 1-2</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Fase 3</strong></td>
-                                    <td>ALL ACCESS PRO (Site Integrado + Gamificação/Quiz + CRM)</td>
-                                    <td><span class="status-badge pending">Mês 2-4</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Fase 4</strong></td>
-                                    <td>THE HEADLINER AI (Ativação IA Omnichannel + Dashboards Preditivos)</td>
-                                    <td><span class="status-badge pending">Mês 4-8</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="timeline-container">
+                        <div class="timeline-line"></div>
+                        
+                        <!-- Fase 0/1 -->
+                        <div class="timeline-item status-completed">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <span class="timeline-phase">Fase 0/1</span>
+                                    <h3 class="timeline-title">App V1 & Infraestrutura Base</h3>
+                                    <span class="status-badge success">✅ Em andamento</span>
+                                </div>
+                                <div class="timeline-time">Prazo: Semanas 1-2</div>
+                                <p class="timeline-desc">Estabilização do aplicativo nativo inicial e publicação nas lojas oficiais para ativação da base.</p>
+                                <div class="timeline-tasks">
+                                    <div class="task-group">
+                                        <h4>Deploy & Lojas</h4>
+                                        <ul>
+                                            <li>Submissão e homologação final na Apple App Store (iOS).</li>
+                                            <li>Publicação oficial na Google Play Store (Android).</li>
+                                            <li>Disponibilização da versão web/PWA do aplicativo.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="task-group">
+                                        <h4>Infraestrutura Base</h4>
+                                        <ul>
+                                            <li>Integração com Sentry/Crashlytics para monitoramento de estabilidade.</li>
+                                            <li>Homologação dos disparos de Push Notifications.</li>
+                                            <li>Setup inicial de banco de dados para base logada preliminar.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Aprovação -->
+                        <div class="timeline-item status-immediate">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <span class="timeline-phase">Aprovação</span>
+                                    <h3 class="timeline-title">Kick-off Estratégico & V2</h3>
+                                    <span class="status-badge info">Imediato</span>
+                                </div>
+                                <div class="timeline-time">Prazo: Kick-off</div>
+                                <p class="timeline-desc">Alinhamento comercial, assinatura de contrato e liberação de acessos para início dos desenvolvimentos paralelos.</p>
+                                <div class="timeline-tasks">
+                                    <div class="task-group">
+                                        <h4>Planejamento Técnico</h4>
+                                        <ul>
+                                            <li>Reunião de alinhamento com marketing e comercial do festival.</li>
+                                            <li>Liberação de acessos e chaves de API da ticketeira parceira.</li>
+                                            <li>Definição do cronograma detalhado de sprints quinzenais.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fase 2 -->
+                        <div class="timeline-item status-pending">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <span class="timeline-phase">Fase 2</span>
+                                    <h3 class="timeline-title">Bangers Core (E-commerce + Base Unificada)</h3>
+                                    <span class="status-badge pending">Semanas 1-4 (Mês 1)</span>
+                                </div>
+                                <div class="timeline-time">Foco: Monetização Direta de Merchandising</div>
+                                <p class="timeline-desc">Implementação do canal oficial de e-commerce e estruturação central da base de dados.</p>
+                                <div class="timeline-tasks">
+                                    <div class="task-group">
+                                        <h4>E-commerce Nativo</h4>
+                                        <ul>
+                                            <li>Integração de gateway de pagamento transparente (Stripe/Pagar.me) no App.</li>
+                                            <li>Painel administrativo standard de pedidos e estoque de merchandising.</li>
+                                            <li>Sistema de cálculo automatizado de frete (Correios/Melhor Envio).</li>
+                                        </ul>
+                                    </div>
+                                    <div class="task-group">
+                                        <h4>Arquitetura de Dados</h4>
+                                        <ul>
+                                            <li>Modelagem do banco de dados centralizado (Single Source of Truth).</li>
+                                            <li>Implementação de políticas de privacidade e conformidade com LGPD.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fase 3 -->
+                        <div class="timeline-item status-pending">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <span class="timeline-phase">Fase 3</span>
+                                    <h3 class="timeline-title">All Access Pro (Site Integrado, CRM & Gamificação)</h3>
+                                    <span class="status-badge pending">Semanas 5-8 (Mês 2)</span>
+                                </div>
+                                <div class="timeline-time">Foco: Engajamento Massivo & Enriquecimento de Dados</div>
+                                <p class="timeline-desc">Rollout do novo website oficial integrado e sistemas interativos de captura de perfil.</p>
+                                <div class="timeline-tasks">
+                                    <div class="task-group">
+                                        <h4>Novo Website 2027</h4>
+                                        <ul>
+                                            <li>Site oficial responsivo e integrado em tempo real com banco do app.</li>
+                                            <li>Sincronização instantânea de Line-up e "Minha Agenda" (Web/App).</li>
+                                        </ul>
+                                    </div>
+                                    <div class="task-group">
+                                        <h4>CRM & Gamificação</h4>
+                                        <ul>
+                                            <li>CRM com painel avançado de leads, tags e segmentação comportamental.</li>
+                                            <li>Quiz Interativo no App (motor de perguntas, timer e ranking).</li>
+                                            <li>Disparador centralizado de campanhas de Push Notification.</li>
+                                            <li>E-commerce Avançado (recuperação de carrinho e cross-selling).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fase 4 -->
+                        <div class="timeline-item status-pending">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <span class="timeline-phase">Fase 4</span>
+                                    <h3 class="timeline-title">The Headliner AI (Central IA 360° & Omnichannel)</h3>
+                                    <span class="status-badge pending">Semanas 9-12 (Mês 3)</span>
+                                </div>
+                                <div class="timeline-time">Foco: Inteligência Artificial Operacional & Vendas Ativas</div>
+                                <p class="timeline-desc">Ativação do ecossistema de Inteligência Artificial e automações avançadas de vendas.</p>
+                                <div class="timeline-tasks">
+                                    <div class="task-group">
+                                        <h4>Central IA & Dashboards</h4>
+                                        <ul>
+                                            <li>Treinamento da IA com regras de negócio, FAQ e histórico do festival.</li>
+                                            <li>Módulo de Ideação de Copys e briefings baseados nos perfis mais ativos.</li>
+                                            <li>Painel de IA Preditiva para projeção de vendas de ingressos/lotes.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="task-group">
+                                        <h4>Ativação Omnichannel</h4>
+                                        <ul>
+                                            <li>IA ativa no WhatsApp/Instagram para qualificação de VIP e vendas.</li>
+                                            <li>Recuperação automática de checkout por conversação inteligente.</li>
+                                            <li>Automação de agendamento de postagens integrada (mLabs/Central Starken).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
