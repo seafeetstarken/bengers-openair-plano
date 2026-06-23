@@ -1,0 +1,125 @@
+
+--- PAGE 1 ---
+PROPOSTA COMERCIAL
+Ecossistema Digital OficialBangers Open Air 2027
+Documento de proposta para continuidade, evolução e sustentação do aplicativo oficial, CRM,plataforma web e experiências digitais integradas do festival.
+Cliente: Bangers Open AirFornecedor: STARKEN TECNOLOGIAData: Maio de 2026
+Objetivo do Projeto
+Estruturar uma plataforma digital contínua para o festival, permitindo evoluçãoprogressiva do aplicativo, CRM, comunicação com público, ativações demarketing, experiências interativas e integração completa entre aplicativo, site ebase de dados.
+--- PAGE 2 ---
+1. CONTEXTO DO PROJETO
+Com base nas reuniões realizadas entre as equipes da STARKEN TECNOLOGIA e Bangers OpenAir, foram levantadas novas demandas estratégicas para evolução do ecossistema digital do festival.
+O objetivo desta nova fase é transformar o aplicativo em uma plataforma contínua derelacionamento, engajamento e operação digital.
+Aplicativo iOS e Android;
+CRM de relacionamento;
+Site oficial integrado;
+Quiz interativo;
+Área administrativa;
+Disparos e notificações;
+Experiências VIP digitais;
+Captação de leads;
+Agenda personalizada do festival;
+Integrações futuras.
+2. DEMANDAS LEVANTADAS
+Área Solicitações
+Cadastro/LoginLogin por telefone, cadastro simplificado e incentivo ao preenchimentocompleto.
+ExperiênciaVIP Área “Últimas Edições”, aftermovies e conteúdos exclusivos.
+Quiz Quiz gamificado com timer, efeitos sonoros e coleta de respostas.
+CRM Gestão de contatos, estatísticas e respostas.
+Minha AgendaAgenda personalizada baseada nas bandas favoritas.
+IntegraçãoIntegração completa entre app, site e CRM.
+--- PAGE 3 ---
+PROPOSTA 01
+PLANO ESSENTIAL
+R$ 1.500/mês
+Sustentação operacional e manutenção contínua do aplicativo.
+INCLUSO
+Correções de bugs e ajustes técnicos;
+Atualizações operacionais do aplicativo;
+Atualizações simples de conteúdo;
+Publicação e gestão nas stores;
+Suporte remoto em horário comercial;
+Monitoramento básico de estabilidade;
+Acompanhamento Android/iOS;
+Pequenos ajustes visuais;
+Painel administrativo básico;
+Gestão simples de banners e conteúdo.
+NÃO INCLUSO
+CRM;
+Novo website;
+Novas funcionalidades;
+Integrações externas;
+Quiz interativo;
+Disparos segmentados;
+Automação de campanhas;
+Painel administrativo avançado.
+Modelo recomendado para manutenção contínua do ecossistema atualcom foco em estabilidade, administração básica e continuidadeoperacional.
+--- PAGE 4 ---
+PROPOSTA 02
+PLANO EXPERIENCE
+R$ 2.500/mês
+Evolução do aplicativo + website oficial integrado.
+INCLUSO
+Todos os itens do Plano Essential;
+Desenvolvimento do novo site oficial;
+Refatoração visual alinhada à identidade do festival;
+Integração entre app e website;
+Compartilhamento de conteúdo;
+Páginas institucionais;
+Área “Últimas Edições”;
+Área de notícias e comunicados;
+Estrutura preparada para campanhas;
+SEO básico e otimização mobile.
+DIFERENCIAIS
+Presença digital unificada;
+Maior controle de conteúdo;
+Fortalecimento da marca;
+Melhor experiência do usuário;
+Base preparada para crescimento futuro.
+Modelo ideal para transformar o aplicativo em um hub digital integrado aosite oficial do festival.
+--- PAGE 5 ---
+PROPOSTA 03
+PLANO ECOSYSTEM
+R$ 4.000/mês
+Plataforma completa de relacionamento, CRM e experiência digital integrada.
+INCLUSO
+Todos os itens dos planos anteriores;
+CRM completo integrado;
+Painel administrativo avançado;
+Quiz interativo gamificado;
+Armazenamento de respostas;
+Dashboard estatístico;
+Gestão de contatos;
+Disparos de notificações;
+Campanhas segmentadas;
+Agenda personalizada;
+Área “Trabalhe Conosco”;
+Integração total site + app + CRM;
+Experiência VIP digital;
+Captação de leads estratégicos;
+Estrutura preparada para expansão futura.
+FUNCIONALIDADES PREVISTAS
+FuncionalidadeDescrição
+Quiz InterativoSistema gamificado com timer, ranking e campanhaspromocionais.
+CRM Gestão de usuários, leads e métricas estratégicas.
+Minha Agenda Agenda personalizada baseada em bandas favoritas.
+Disparos Push notifications e campanhas segmentadas.
+ÁreaAdministrativaPainel operacional e gestão de conteúdo.
+Integração Total Compartilhamento completo entre app, site e CRM.
+Modelo recomendado para posicionar o Bangers Open Air como umaplataforma digital contínua de relacionamento, marketing e experiênciapremium.
+--- PAGE 6 ---
+CONDIÇÕES GERAIS
+Prazo Contratual
+Contrato recorrente mensal, renovado automaticamente enquanto houver interesse entre as partes.
+Serviços Adicionais
+Funcionalidades não previstas poderão ser orçadas separadamente.
+Custos de Terceiros
+Custos envolvendo Apple Developer, Google Play, APIs, servidores, gateways e serviços externosnão estão inclusos.
+Escopo
+Mudanças estruturais, redesigns completos ou novas integrações poderão demandarreorçamentação.
+LGPD
+O contratante permanece como controlador dos dados, sendo responsável pelas bases legais,políticas e consentimentos.
+VALIDADE DA PROPOSTA
+Esta proposta possui validade de 15 dias.
+CONTRATANTE STARKEN TECNOLOGIA
+Documento confidencial — Bangers Open Air + STARKEN TECNOLOGIA

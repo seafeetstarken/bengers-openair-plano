@@ -1,0 +1,457 @@
+CONTRATO  DE  PRESTAÇÃO  DE  SERVIÇOS  TECNOLÓGICOS  PARA  EVENTO  
+ECOSSISTEMA  DIGITAL  –  FESTIVAL  BANGERS  (PWA  +  APP  NATIVO)  
+ 
+Pelo  presente  instrumento  particular,  de  um  lado:  
+HOFFMAN  &  OBRIAN  MARKETING  ARTISTICO  E  ENTRETENIMENTO  EIRELI  ,  com  sede  à  Rua  
+Anhaia,
+ 
+253
+ 
+-
+ 
+Vila
+ 
+Curuçá,
+ 
+CEP
+ 
+09280-490,
+ 
+Santo
+ 
+André/SP,
+ 
+CNPJ/M:
+ 
+12.796.468/0001-13,
+ 
+Inscrição
+ 
+Municipal
+ 
+203365,
+ 
+Representada
+ 
+por
+ 
+Damaris
+ 
+de
+ 
+Oliveira
+ 
+Silva,
+ 
+CPF
+  
+360.869.948-11,
+ 
+E-mail
+ 
+info@ho
+ﬀ
+manobrian.com.br
+ 
+Doravante
+ 
+denominada
+ 
+CONTRATANTE
+.
+ E,  de  outro  lado:  STARKEN  TECNOLOGIA ,  pessoa  jurídica  de  direito  privado,  CNPJ  62.839.769/0001-55,  
+com
+ 
+sede
+ 
+à
+ 
+R
+ 
+ALMIRANTE
+ 
+BARROSO,
+ 
+1004
+ 
+sala
+ 
+504
+ 
+-
+ 
+Blumenau/Santa
+ 
+Catarina
+ 
+CEP
+ 
+89035-402,
+ 
+neste
+ 
+ato
+ 
+representada
+ 
+por
+ 
+Victor
+ 
+Augusto
+ 
+Lapegna
+,
+ 
+CPF
+ 
+00876743947,
+ 
+victor@gcmg.online,
+ 
+doravante
+ 
+denominada
+ 
+CONTRATADA
+.
+ 
+ 
+As  Partes  resolvem  celebrar  o  presente  Contrato  de  Prestação  de  Serviços  Tecnológicos,  que  se  regerá  
+pelas
+ 
+cláusulas
+ 
+e
+ 
+condições
+ 
+abaixo,
+ 
+bem
+ 
+como
+ 
+pelo
+ 
+Anexo
+ 
+I
+ 
+(Proposta
+ 
+Comercial
+ 
+aceita),
+ 
+que
+ 
+integra
+ 
+o
+ 
+presente
+ 
+instrumento
+ 
+para
+ 
+todos
+ 
+os
+ 
+fins,
+ 
+observada
+ 
+a
+ 
+cláusula
+ 
+de
+ 
+prevalência
+ 
+documental.
+ 
+ 
+CLÁUSULA  1  –  DO  OBJETO  
+1.1.  O  presente  contrato  tem  por  objeto  a  prestação,  pela  CONTRATADA,  de  serviços  tecnológicos  
+especializados
+ 
+para
+ 
+concepção,
+ 
+desenvolvimento,
+ 
+implementação,
+ 
+configuração,
+ 
+disponibilização
+ 
+e
+ 
+sustentação
+ 
+do
+ 
+Aplicativo
+ 
+Oficial
+ 
+do
+ 
+Festival
+ 
+Bangers,
+ 
+compreendendo:
+ 
+(i)
+ 
+aplicativo
+ 
+em
+ 
+formato
+ 
+PWA
+ 
+(Progressive
+ 
+Web
+ 
+App),
+ 
+com
+ 
+disponibilização
+ 
+ao
+ 
+público
+ 
+por
+ 
+instalação
+ 
+via
+ 
+QR
+ 
+Code
+ 
+e
+ 
+acesso
+ 
+mobile;
+ 
+e
+ 
+ 
+(ii)  evolução  para  aplicativo  nativo  iOS  e  Android,  com  submissão  e  publicação  nas  lojas  oficiais  (Apple  
+App
+ 
+Store
+ 
+e
+ 
+Google
+ 
+Play),
+ 
+observadas
+ 
+as
+ 
+regras
+ 
+e
+ 
+prazos
+ 
+das
+ 
+respectivas
+ 
+plataformas,
+ 
+tudo
+ 
+conforme
+ 
+escopo
+ 
+e
+ 
+entregáveis
+ 
+descritos
+ 
+no
+ 
+Anexo
+ 
+I.
+ 
+ 
+1.2.  O  objeto  inclui,  ainda,  quando  aplicável  e  nos  limites  deste  instrumento:  operação  assistida,  ajustes  
+corretivos
+ 
+e
+ 
+sustentação
+ 
+técnica
+ 
+pós-entrega,
+ 
+conforme
+ 
+Cláusula
+ 
+de
+ 
+Manutenção
+ 
+Mensal.
+ 
+ 
+CLÁUSULA  2  –  DO  ESCOPO  DOS  SERVIÇOS  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+2.1.  Escopo  dos  Serviços  (Entregáveis)  
+2.1.1.  A  CONTRATADA  executará:  
+a)  plataforma  PWA  e  base  técnica  preparada  para  conversão/evolução  em  app  nativo;  b)  experiência  do  usuário  (UX)  com:  line-up  por  dia/palco,  páginas  de  artistas,  agenda  personalizada,  mapa  interativo  e  informações  de  logística  (“Como  chegar”),  área  institucional  e  área  para  patrocinadores;  
+c)  engajamento  e  comunicação:  notificações  push,  módulo  de  notícias/comunicados,  sistema  de  votação  (quando  previsto  no  Anexo  I),  agenda  inteligente;  
+d)  comercial  e  gestão:  painel  administrativo  (CMS)  para  gestão  de  conteúdo,  e  integração  técnica  com  e-commerce/módulo  de  venda  de  produtos  (merchandising),  conforme  integração  e  condições  técnicas  aprovadas  pela  CONTRATANTE.   
+2.1.2.  O  detalhamento  funcional,  requisitos  e  critérios  de  aceite  constam  do  Anexo  I  e  dos  documentos  de  especificação/validação  assinados  eletronicamente  pelas  Partes  durante  o  projeto.  
+ 
+2.2.  Limitação  do  Escopo  
+2.2.1.  Ficam  expressamente  excluídos  do  escopo,  salvo  contratação  adicional  por  escrito:  a)  desenvolvimento  de  funcionalidades  não  previstas  no  Anexo  I;  
+b)  mudanças  substanciais  de  escopo  após  validação  (“scope  creep”),  inclusive  alterações  estruturais  de  UX,  arquitetura,  integrações  ou  fluxos  principais;  c)  integrações  com  sistemas  de  terceiros  não  previstos,  não  homologados  ou  sem  documentação  adequada;  d)  fornecimento,  instalação,  operação  e/ou  garantia  de  infraestrutura  de  internet/Wi-Fi  do  evento,  rede  local,  links  dedicados,  roteadores,  catracas,  leitores  físicos,  totens,  bilheteria  física  ou  operação  de  controle  de  acesso;  e)  criação  de  conteúdo  (textos,  artes,  fotos,  vídeos)  e  curadoria  editorial/jurídica;  f)  compra  e  gestão  de  mídia  paga;  g)  suporte  presencial  (“on-site”)  e  plantão  crítico,  salvo  previsão  expressa  em  aditivo;  h)  responsabilidade  por  aprovação/publicação  em  lojas  além  do  dever  de  diligência  da  CONTRATADA,  dada  a  dependência  de  terceiros  (Apple/Google).  
+2.3.  Serviços  Adicionais  
+2.3.1.  Qualquer  serviço  não  previsto  no  escopo  original  dependerá  de  aditivo  contratual  ou  nova  proposta  aprovada  por  escrito,  com  definição  de  preço,  prazo  e  condições.  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+2.4.  Natureza  da  Obrigação  
+2.4.1.  A  obrigação  da  CONTRATADA  é  obrigação  de  meio,  consistindo  no  emprego  de  diligência  técnica,  boas  práticas  e  esforços  razoáveis  para  entrega  do  escopo  contratado.  
+2.4.2.  As  Partes  reconhecem  que  soluções  tecnológicas  estão  sujeitas  a  limitações  e  dependências  externas,  razão  pela  qual  não  há  garantia  de  disponibilidade  contínua,  performance  absoluta,  ausência  total  de  falhas  ou  aprovação/publicação  em  prazo  certo  nas  lojas,  quando  a  causa  decorrer  de  terceiros,  infraestrutura  externa  ou  fatores  fora  do  controle  da  CONTRATADA.  
+ 
+CLÁUSULA  3  –  DO  CRONOGRAMA  E  MARCOS  DE  ENTREGA  
+3.1.  O  projeto  seguirá  cronograma  por  fases  indicado  no  Anexo  I  (kick-off,  lançamento  PWA,  submissão  às  lojas  e  disponibilidade  total),  condicionando-se  cada  marco:  a)  ao  pagamento  do  respectivo  marco,  quando  aplicável;  e  b)  ao  cumprimento,  pela  CONTRATANTE,  das  obrigações  de  fornecimento  de  conteúdo,  acessos  e  aprovações,  nos  prazos  acordados.   
+3.2.  Suspensão  automática  de  prazos.  Os  prazos  da  CONTRATADA  ficam  automaticamente  suspensos  enquanto  persistirem  pendências  imputáveis  à  CONTRATANTE  (conteúdo,  aprovações,  acessos,  decisões,  integrações,  credenciais,  materiais).  
+ 
+CLÁUSULA  4  –  DO  ACEITE,  HOMOLOGAÇÃO  E  ALTERAÇÕES  
+4.1.  A  cada  entrega  (parcial  ou  final),  a  CONTRATANTE  terá  05  (cinco)  dias  corridos  para:  (i)  aprovar;  ou  (ii)  reprovar  justificadamente,  apontando  não  conformidades  objetivas  em  relação  ao  Anexo  I  e  às  especificações  validadas.  
+4.2.  A  ausência  de  manifestação  dentro  do  prazo  caracteriza  aceite  tácito,  para  todos  os  fins.  
+4.3.  Reprovações  genéricas  (“não  gostei”,  “quero  diferente”)  não  suspendem  o  aceite;  alterações  desse  tipo  configuram  mudança  de  escopo  e  serão  tratadas  como  Serviços  Adicionais  (Cláusula  2.3).  
+ 
+CLÁUSULA  5  –  DAS  OBRIGAÇÕES  DO  CONTRATANTE  
+5.1.  São  obrigações  essenciais  da  CONTRATANTE,  cujo  descumprimento  autoriza  suspensão  e/ou  rescisão:  a)  disponibilizar,  em  tempo  hábil,  todo  o  conteúdo  (line-up,  artes,  fotos,  bios,  textos,  mapas,  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+comunicados,  informações  logísticas,  material  de  patrocinadores  etc.),  em  formato  apropriado;  b)  garantir  a  legalidade,  veracidade  e  licitude  do  conteúdo,  respondendo  por  eventuais  violações;  c)  fornecer  acessos,  chaves,  credenciais  e  integrações  necessárias,  assumindo  custos  de  terceiros;  d)  nomear  responsável  com  poder  decisório  para  aprovações;  e)  efetuar  pagamentos  nos  prazos;  f)  obter  previamente  todas  as  autorizações  e  licenças  necessárias,  conforme  Cláusula  de  Uso  de  Imagem  e  Conteúdo;  g)  assegurar  as  condições  mínimas  operacionais  para  utilização  da  solução  (incluindo  conectividade  adequada  quando  exigir  operações  em  tempo  real  durante  o  evento).  
+ 
+CLÁUSULA  6  –  DO  PAGAMENTO  
+6.1.  Valor  do  Projeto  
+6.1.1.  Pelos  serviços  de  desenvolvimento  e  implementação  do  projeto  (escopo  base),  a  CONTRATANTE  pagará  à  CONTRATADA  o  valor  total  de  R$  30.000,00  (trinta  mil  reais) .   
+6.2.  Forma  de  Pagamento  
+6.2.1.  O  pagamento  do  valor  do  projeto  ocorrerá  em  03  (três)  parcelas:  a)  R$  10.000,00  no  ato  da  assinatura;  
+b)  R$  10.000,00  com  vencimento  em  janeiro/2026;  
+c)  R$  10.000,00  com  vencimento  em  fevereiro/2026.   
+ 
+6.3.  Manutenção  e  Sustentação  Pós-Entrega  (R$  2.000,00/mês)  
+6.3.1.  Para  garantir  estabilidade,  atualizações  e  suporte  operacional  contínuo  do  aplicativo/plataforma,  a  CONTRATANTE  pagará  à  CONTRATADA  fee  mensal  de  R$  2.000,00  (dois  mil  reais),  a  título  de  Sustentação  e  Manutenção,  a  iniciar-se  no  mês  subsequente  ao  aceite  da  entrega  do  PWA  (ou  na  data  em  que  a  plataforma  for  colocada  em  produção,  o  que  ocorrer  primeiro)  e  enquanto  a  plataforma  permanecer  ativa  por  solicitação  ou  benefício  da  CONTRATANTE.   
+6.3.2.  A  Sustentação  e  Manutenção  compreende,  nos  limites  de  razoabilidade  técnica:  a)  correções  de  bugs  e  ajustes  corretivos;  b)  atualizações  de  conteúdo/imagens  e  apoio  operacional  via  CMS;  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+c)  suporte  remoto  em  horário  comercial;  d)  gestão  operacional  de  publicação/atualizações  nas  lojas,  quando  tecnicamente  possível.   
+6.3.3.  Não  estão  incluídos  no  fee  mensal:  novas  funcionalidades,  grandes  alterações,  integrações  adicionais,  suporte  presencial/plantão  crítico,  mudanças  estruturais  de  UX/arquitetura,  que  serão  tratados  como  Serviços  Adicionais.  
+6.4.  Inadimplência  
+6.4.1.  O  atraso  implicará:  multa  de  2%  sobre  o  valor  em  atraso;  juros  de  1%  ao  mês,  pro  rata  die;  e  correção  monetária.   
+6.5.  Suspensão  e  Rescisão  por  Inadimplência  do  Contratante  
+6.5.1.  O  inadimplemento  de  qualquer  parcela  (do  projeto  ou  do  fee  mensal)  por  prazo  superior  a  05  (cinco)  dias  corridos  autoriza  a  CONTRATADA  a  suspender  total  ou  parcialmente  os  serviços  e  acessos,  sem  que  isso  caracterize  descumprimento  contratual.  
+6.5.2.  Persistindo  o  inadimplemento  por  prazo  superior  a  10  (dez)  dias  corridos,  poderá  a  CONTRATADA  rescindir  o  contrato  de  pleno  direito,  mediante  simples  notificação,  permanecendo  exigíveis:  a)  valores  vencidos  e  não  pagos;  b)  valores  proporcionais  a  serviços  executados;  e  c)  quando  aplicável,  valores  de  marcos  já  iniciados  por  mobilização  de  equipe.  
+ 
+Em  caso  de  rescisão  por  inadimplência  da  CONTRATANTE,  esta  pagará  ainda  multa  compensatória  equivalente  a  20%  (vinte  por  cento)  do  valor  total  do  contrato  de  desenvolvimento,  ou  do  saldo  contratual  remanescente,  o  que  for  maior,  sem  prejuízo  da  cobrança  dos  valores  devidos.  
+ 
+CLÁUSULA  7  –  DO  CASO  FORTUITO  E  FORÇA  MAIOR   
+7.1.  Nenhuma  Parte  responderá  por  inadimplemento  decorrente  de  caso  fortuito  ou  força  maior,  incluindo,  sem  se  limitar:  falhas  massivas  de  internet,  indisponibilidade  de  provedores  globais,  ataques  cibernéticos,  quedas  de  energia,  eventos  climáticos  extremos,  decisões  de  autoridades,  cancelamento/alteração  do  evento,  greves,  atos  de  terceiros  e  falhas  sistêmicas  de  Apple/Google,  gateways,  APIs  e  serviços  essenciais.  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+7.2.  Ocorrendo  força  maior  que  afete  entregas,  os  prazos  serão  prorrogados  pelo  período  do  evento  impeditivo,  sem  multas.  Se  a  força  maior  inviabilizar  definitivamente  o  objeto,  aplica-se  rescisão  com  pagamento  proporcional  ao  executado.  
+ 
+CLÁUSULA  8  –  DO  USO  DE  IMAGEM,  MARCAS  E  DIREITOS  AUTORAIS  
+8.1.  A  CONTRATANTE  declara  e  garante  que  possui,  previamente  à  inserção/divulgação  na  plataforma,  todas  as  autorizações,  licenças  e  cessões  necessárias  para  uso  de:  imagem,  voz,  nome,  marca,  logotipos,  obras  audiovisuais,  fotografias,  artes  e  quaisquer  conteúdos  de  artistas,  patrocinadores,  fornecedores  e  terceiros.  
+8.2.  A  CONTRATANTE  assume  responsabilidade  exclusiva  por  qualquer  violação  a  direitos  de  personalidade  (imagem/voz/nome),  propriedade  intelectual  (direitos  autorais  e  conexos)  e  marcas,  obrigando-se  a  manter  a  CONTRATADA  integralmente  indene,  nos  termos  da  cláusula  de  indenização  e  regresso.  
+ 
+CLÁUSULA  9  –  DA  RESPONSABILIDADE  PELO  CONTEÚDO  
+9.1.  Todo  conteúdo  disponibilizado  ao  público  por  meio  do  aplicativo/plataforma  (textos,  imagens,  vídeos,  comunicados,  push,  anúncios,  agenda,  mapas,  áreas  de  patrocinadores)  é  de  responsabilidade  exclusiva  da  CONTRATANTE,  que  declara  ter  revisado  e  aprovado  integralmente  a  sua  veiculação.  
+9.2.  A  CONTRATADA  não  realiza  curadoria  editorial,  jurídica  ou  regulatória  do  conteúdo,  atuando  como  prestadora  técnica.  
+ 
+CLÁUSULA  10  –  DA  INDENIZAÇÃO  E  REGRESSO  
+10.1.  Caso  a  CONTRATADA  seja  demandada  (judicial  ou  extrajudicialmente)  por  fatos  imputáveis  à  CONTRATANTE  —  inclusive  por  conteúdo,  uso  de  imagem/marca,  direitos  autorais,  informações  ao  consumidor,  publicidade  ou  dados  pessoais  —  a  CONTRATANTE  deverá,  a  critério  da  CONTRATADA:  a)  assumir  a  defesa  e  requerer  sua  substituição/exclusão  do  polo  passivo  quando  cabível;  e/ou  b)  reembolsar  integralmente  custas,  despesas,  acordos,  condenações  e  honorários  advocatícios  (inclusive  contratuais)  incorridos  pela  CONTRATADA.  
+ 
+CLÁUSULA  11  –  DA  RESPONSABILIDADE  POR  TERCEIROS  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+11.1.  A  CONTRATADA  não  responde  por  falhas,  indisponibilidades,  atrasos,  bloqueios,  limitações  ou  mudanças  de  política  de  terceiros,  incluindo,  sem  limitação:  Apple,  Google,  gateways  de  pagamento,  provedores  de  nuvem,  serviços  de  push,  serviços  de  mapa/geolocalização,  APIs  externas,  operadoras  e  infraestrutura  de  internet  do  evento.  
+11.2.  Eventuais  custos  de  terceiros  necessários  ao  funcionamento  (nuvem,  gateways,  ferramentas,  licenças)  serão  de  responsabilidade  da  CONTRATANTE,  salvo  expressa  previsão  em  contrário.  
+ 
+CLÁUSULA  12  –  DA  LIMITAÇÃO  DE  RESPONSABILIDADE  
+12.1.  A  responsabilidade  total  da  CONTRATADA,  por  qualquer  causa  relacionada  a  este  contrato,  fica  limitada  ao  montante  total  efetivamente  pago  pela  CONTRATANTE  à  CONTRATADA  nos  12  (doze)  meses  anteriores  ao  evento  que  deu  causa  ao  pleito  (ou,  se  menor,  ao  valor  total  do  contrato  de  desenvolvimento).  
+12.2.  Em  nenhuma  hipótese  a  CONTRATADA  responderá  por:  lucros  cessantes,  perda  de  receita,  perda  de  chance,  danos  indiretos,  danos  morais,  danos  à  imagem/reputação,  interrupção  do  evento,  custos  de  remarcação/cancelamento,  ou  quaisquer  consequências  econômicas  reflexas.  
+ 
+CLÁUSULA  13  –  DA  VIGÊNCIA  
+13.1.  O  presente  contrato  entra  em  vigor  na  data  de  sua  assinatura  e  vigorará:  a)  quanto  ao  desenvolvimento/implementação,  até  o  aceite  final  do  escopo;  e  b)  quanto  à  manutenção/sustentação,  enquanto  houver  contratação  e  pagamento  do  fee  mensal,  salvo  rescisão.  
+ 
+CLÁUSULA  14  –  DA  RESCISÃO  
+14.1.  O  contrato  poderá  ser  rescindido:  a)  por  inadimplemento  não  sanado  nos  prazos  da  Cláusula  6.5;  b)  por  descumprimento  material  de  obrigação  essencial,  não  sanado  em  10  dias  após  notificação;  c)  por  acordo  escrito;  d)  por  força  maior  definitiva.  
+14.2.  Rescisão  sem  culpa  da  CONTRATADA:  são  devidos  os  valores  proporcionais  e/ou  marcos  executados,  além  de  valores  vencidos  do  fee  mensal.  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+ 
+CLÁUSULA  15  –  DA  CONFIDENCIALIDADE  
+15.1.  As  Partes  manterão  sigilo  sobre  informações  técnicas,  comerciais  e  estratégicas,  inclusive  credenciais,  documentação  e  dados  de  operação,  por  5  (cinco)  anos  após  o  término,  ou  por  prazo  maior  se  a  informação  permanecer  confidencial.  
+15.2.  A  violação  sujeita  a  infrator  à  reparação  integral  de  perdas  e  danos,  sem  prejuízo  de  medidas  urgentes  (tutela  inibitória).  
+ 
+CLÁUSULA  16  –  DA  PROTEÇÃO  DE  DADOS  (LGPD)  
+16.1.  As  Partes  declaram  conformidade  com  a  Lei  13.709/2018.  
+16.2.  Para  fins  deste  contrato:  a)  a  CONTRATANTE  é  a  Controladora  dos  dados  pessoais  tratados  no  contexto  do  evento  e  do  aplicativo;  b)  a  CONTRATADA  atuará  como  Operadora,  tratando  dados  pessoais  apenas  conforme  instruções  documentadas  da  CONTRATANTE  e  nos  limites  técnicos  do  serviço.  
+16.3.  A  CONTRATANTE  garante  possuir  base  legal  e  deveres  de  transparência  para  coleta  e  uso  de  dados  de  usuários,  responsabilizando-se  por  políticas,  termos,  consentimentos  e  atendimento  a  titulares,  mantendo  a  CONTRATADA  indene  de  reclamações  decorrentes  de  descumprimento  pela  CONTRATANTE.  
+ 
+CLÁUSULA  17  –  DA  INEXISTÊNCIA  DE  VÍNCULO  
+17.1.  O  presente  contrato  não  estabelece  solidariedade,  sociedade,  associação,  representação,  franquia,  joint  venture  ou  vínculo  trabalhista/previdenciário  entre  as  Partes  ou  seus  colaboradores.  
+ 
+CLÁUSULA  18  –  DA  PREVALÊNCIA  DOCUMENTAL  
+18.1.  Em  caso  de  divergência  entre  este  contrato  e  o  Anexo  I  (Proposta  Comercial),  prevalecerá  o  texto  deste  contrato.  A  Proposta  Comercial  integra  o  instrumento  para  detalhamento  do  escopo,  sem  ampliar  responsabilidades  além  do  aqui  pactuado.  
+CLÁUSULA  19  –  DA  NÃO  CONCORRÊNCIA,  NÃO  ALICIAMENTO  E  NÃO  UTILIZAÇÃO  DO  PROJETO  
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign
+
+19.1.  A  CONTRATANTE  obriga-se  a  não  contratar,  direta  ou  indiretamente,  terceiros  para  desenvolver,  replicar,  adaptar  ou  explorar  solução  tecnológica  substancialmente  equivalente  ao  Aplicativo  Oficial  do  Festival  Bangers,  objeto  deste  contrato,  com  base  no  mesmo  escopo,  arquitetura,  fluxos,  funcionalidades,  layout,  lógica  de  operação  ou  conceito  tecnológico  desenvolvido  pela  CONTRATADA,  pelo  prazo  de  24  (vinte  e  quatro)  meses  contados  do  término  da  vigência  contratual.  
+19.2.  A  CONTRATANTE  compromete-se,  ainda,  a  não  utilizar,  ceder,  compartilhar,  reproduzir  ou  permitir  o  uso,  total  ou  parcial,  do  know-how  técnico,  estrutura  lógica,  arquitetura  de  software,  documentação,  fluxos,  especificações  funcionais,  códigos,  soluções  técnicas  ou  conceitos  operacionais  desenvolvidos  pela  CONTRATADA,  fora  dos  limites  deste  contrato.  
+19.3.  Fica  igualmente  vedado  à  CONTRATANTE  aliciar,  contratar  ou  manter  vínculo  profissional  com  empregados,  colaboradores  ou  prestadores  de  serviços  da  CONTRATADA  que  tenham  participado  direta  ou  indiretamente  da  execução  do  projeto,  pelo  prazo  de  24  (vinte  e  quatro)  meses,  salvo  autorização  expressa  e  escrita  da  CONTRATADA.  
+19.4.  O  descumprimento  de  qualquer  obrigação  prevista  nesta  cláusula  sujeitará  a  CONTRATANTE  ao  pagamento  de  multa  não  compensatória  equivalente  a  50%  (cinquenta  por  cento)  do  valor  total  do  contrato,  sem  prejuízo  da  apuração  de  perdas  e  danos  adicionais,  bem  como  da  adoção  das  medidas  judiciais  cabíveis.  
+ 
+CLÁUSULA  20  –  DO  FORO  
+20.1.  Fica  eleito  o  foro  da  Comarca  de  Blumenau/SC,  com  renúncia  a  qualquer  outro,  por  mais  privilegiado  que  seja.  
+E  por  estarem  justas  e  contratadas,  as  partes  assinam  o  presente  instrumento  em  duas  vias  de  igual  teor.  
+Local  e  data:   
+CONTRATANTE:   CONTRATADA  (STARKEN  TECNOLOGIA):   
+TESTEMUNHA  1  
+TESTEMUNHA  2  
+ 
+Assinado digitalmente via StarkenSign
+Assinado digitalmente via StarkenSign

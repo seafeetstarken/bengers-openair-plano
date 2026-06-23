@@ -1,0 +1,52 @@
+Relatório de Entrega de Escopo
+Este documento resume, em linguagem de produto, todas as funcionalidades entregues no Web PWA, no Aplicativo Flutter (iOS &Android) e no Admin Panel (Web) do projeto bangers-open-air-app durante o último ano e o ano corrente.
+Web – PWA
+FuncionalidadeDescrição Plataforma
+Alertas Exibe avisos e notificações importantes para o usuário, como mudanças de horário oumensagens de segurança. Web PWA
+Checkout Permite a compra de ingressos em poucos cliques, com resumo de pedido, pagamentointegrado e confirmação instantânea. Web PWA
+Contato Formulário de contato para que visitantes enviem dúvidas, sugestões ou solicitações deapoio. Web PWA
+Ajuda – Escolha Assistente que orienta o usuário a escolher o melhor evento ou pacote de acordo com suaspreferências. Web PWA
+Home (Página inicial)Visão geral com destaques de eventos, banners e acesso rápido às principaisfuncionalidades. Web PWA
+Informações Apresenta detalhes sobre o festival, política de privacidade, termos de uso e FAQ. Web PWA
+Programação (Line Up) Lista completa de artistas, horários e palcos, com filtros por gênero ou data.Web PWA
+Login Entrada segura para usuários cadastrados, com suporte a recuperação de senha.Web PWA
+Mapa Mapa interativo que mostra a localização dos palcos, áreas de alimentação e serviços.Web PWA
+Minha Agenda Agenda personalizada onde o usuário adiciona shows favoritos e recebe lembretes.Web PWA
+Notícias Feed de atualizações, anúncios de artistas e novidades do festival.Web PWA
+Página 404 (Nãoencontrada) Mensagem amigável quando o usuário tenta acessar um endereço inexistente.Web PWA
+Perfil Página de gerenciamento de dados pessoais, preferências e histórico de compras.Web PWA
+Cadastro Formulário de registro para novos usuários, com validação de e-mail.Web PWA
+Loja Catálogo de produtos oficiais (camisetas, bonés, pôsteres) com integração de pagamento.Web PWA
+Ingressos Visão detalhada dos ingressos adquiridos, QR code para entrada e opção de transferência.Web PWA
+Trabalhe conosco Página de oportunidades de parceria, voluntariado e vagas de emprego.Web PWA
+Aplicativo Flutter (iOS & Android)
+FuncionalidadeDescrição Plataforma
+Alertas Notificações push e tela de alertas dentro do app, garantindo que o usuário estejasempre informado. Flutter(iOS/Android)
+AutenticaçãoFluxo de login/registro com email e redes sociais, mantido em sessão segura.Flutter(iOS/Android)
+Home Página principal mobile com carrossel de destaques, acesso rápido a agenda e loja.Flutter(iOS/Android)
+InformaçõesDetalhes sobre o festival, FAQs e contato rápido via chat. Flutter(iOS/Android)
+Programação(Line Up) Lista de artistas com filtros, visualização de horário e possibilidade de favoritar. Flutter(iOS/Android)
+Mapa Mapa nativo com geolocalização e rota para cada palco.Flutter(iOS/Android)
+Notícias Feed de novidades atualizado em tempo real, com compartilhamento para redessociais. Flutter(iOS/Android)
+FuncionalidadeDescrição Plataforma
+Agenda (Schedule)Agenda personalizada, arraste-e-solte de shows e lembretes configuráveis.Flutter(iOS/Android)
+Loja Catálogo mobile otimizado, compra com Apple Pay / Google Pay. Flutter(iOS/Android)
+Ingressos Visualização de ingressos com QR code, opção de adicionar ao Wallet (iOS) ouGoogle Pay (Android). Flutter(iOS/Android)
+Painel Administrativo (Web)
+FuncionalidadeDescrição Plataforma
+Formulário de Alertas Criação e edição de alertas que são exibidos nos aplicativos e no site.AdminWeb
+Listagem de Alertas Visão consolidada de todos os alertas ativos, com opções de ativar/desativar. AdminWeb
+Formulário de BandasCadastro de novas bandas/artistas, inserção de fotos, biografia e agenda.AdminWeb
+Listagem de BandasGestão completa das bandas, incluindo status de aprovação e ordem de exibição.AdminWeb
+Broadcast Envio de mensagens globais (push, email) para todos os usuários ou segmentos.AdminWeb
+Detalhes de ContatoVisualiza informações completas de um contato (nome, e-mail, histórico).AdminWeb
+Novo Contato Formulário rápido para registrar novos leads ou parceiros.AdminWeb
+Gerenciamento deContatos Lista, filtro e exportação de contatos para CRM.AdminWeb
+Dashboard Painel com métricas de vendas, número de usuários ativos, ingressos emitidos eperformance da loja. AdminWeb
+Gerenciamento de NotíciasCriação, edição e publicação de artigos e comunicados.AdminWeb
+Formulário de NotíciasEditor rico para compor textos, imagens e links. AdminWeb
+Configurações do SistemaAjuste de parâmetros globais: tema, integrações, limites de compra.AdminWeb
+Formulário dePatrocinadores Cadastro e gerenciamento de informações de patrocinadores, contratos e logos.AdminWeb
+Listagem dePatrocinadores Visão geral dos parceiros, com status de pagamento e exibição no site.AdminWeb
+Resultados de PesquisasApresentação de respostas de pesquisas de satisfação e preferências dos usuários.AdminWeb
+Documento gerado em 22/06/2026. Use-o como referência para apresentações de entrega, comunicação com stakeholders ou criação dematerial de suporte ao cliente.
