@@ -3,285 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bangers Open Air - Dashboard Digital</title>
-    <meta name="description" content="Dashboard digital oficial do projeto Bangers Open Air 2027. Escopo, contratos e renovação.">
+    <title>Bangers Open Air V2 — Ecossistema Digital & IA 360°</title>
+    <meta name="description" content="Apresentação comercial e técnica da renovação digital e central de inteligência do festival Bangers Open Air 2027.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="background-effects">
         <div class="glow glow-1"></div>
         <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
     </div>
 
-    <header class="main-header">
-        <div class="container header-container">
-            <div class="brand">
+    <div class="app-layout">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <span class="starken-badge">STARKEN TECNOLOGIA</span>
                 <h1>BANGERS</h1>
-                <span class="subtitle">Open Air 2027</span>
+                <span class="subtitle">Ecosystem V2</span>
             </div>
-            <nav class="tabs-nav">
-                <button class="tab-btn active" data-target="contrato">Contrato V1</button>
-                <button class="tab-btn" data-target="escopo">Escopo Entregue</button>
-                <button class="tab-btn" data-target="renovacao">Renovação V2</button>
-                <button class="tab-btn" data-target="galeria">Galeria de Telas</button>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-category">Apresentação Estratégica</div>
+                <a href="#intro" class="nav-link active">Estratégia de Domínio Digital</a>
+                <a href="#visao-mercado" class="nav-link">1. Visão de Mercado & Dados</a>
+                
+                <div class="nav-category">Planos & Negócios</div>
+                <a href="#arquitetura-planos" class="nav-link">2. Nova Arquitetura de Planos</a>
+                
+                <div class="nav-category">Central IA 360°</div>
+                <a href="#modulo-criacao" class="nav-link">3.4 Criação & Ideação com IA</a>
+                <a href="#omnichannel-ai" class="nav-link">3.5 Omnichannel AI Activation</a>
+                <a href="#smart-crm" class="nav-link">3.6 Smart CRM & Predição</a>
+                <a href="#social-automation" class="nav-link">3.8 Integração & Automação</a>
+                
+                <div class="nav-category">Contrato & Entregas</div>
+                <a href="#modelo-parceria" class="nav-link">4. Modelo de Parceria</a>
+                <a href="#roadmap" class="nav-link">5. Roadmap de Implementação</a>
+                <a href="#open-questions" class="nav-link">6. Open Questions</a>
             </nav>
-        </div>
-    </header>
 
-    <main class="container">
-        <!-- Tab: Contrato V1 -->
-        <section id="contrato" class="tab-content active">
-            <h2 class="section-title">Dados do Contrato V1</h2>
-            <div class="grid-2">
-                <div class="glass-card">
-                    <h3>Contratante (Cliente)</h3>
-                    <ul class="data-list">
-                        <li><strong>Razão Social:</strong> HOFFMAN & OBRIAN MARKETING ARTISTICO E ENTRETENIMENTO EIRELI</li>
-                        <li><strong>CNPJ:</strong> 12.796.468/0001-13</li>
-                        <li><strong>Endereço:</strong> Rua Anhaia, 253 - Vila Curuçá, Santo André/SP</li>
-                        <li><strong>Representante:</strong> Damaris de Oliveira Silva</li>
-                        <li><strong>Contato:</strong> info@hoffmanobrian.com.br</li>
+            <div class="sidebar-footer">
+                <p>Proposta Bangers Open Air 2027</p>
+                <p class="starken-signature">Desenvolvido por Starken</p>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT (DOCUMENT VIEW) -->
+        <main class="main-content">
+            <div class="document-container">
+                
+                <section id="intro" class="doc-section">
+                    <h1 class="doc-title">🚀 Estratégia de Domínio Digital & Proposta Tecnológica V2 — Bangers Open Air 2027</h1>
+                    <p class="doc-text">Este documento consolida a visão de engenharia e negócios para o <strong>Bangers Open Air</strong>, o maior festival de rock da América Latina.</p>
+                    <p class="doc-text">A transição para a V2 não é apenas uma atualização de software; é um movimento estratégico de <strong>Independência de Dados (Data Ownership) e Inteligência de Mercado</strong>. O objetivo central é cessar a dependência exclusiva de ticketeiras terceirizadas, construindo e monetizando uma <strong>base proprietária de fãs</strong> altamente engajada.</p>
+                    
+                    <div class="alert alert-important">
+                        <strong>IMPORTANTE:</strong> A Fase 0 (App V1) encontra-se em etapa de entrega e homologação (TestFlight/Stores). Este planejamento foca estritamente na grandiosa apresentação do ecossistema V2 que será apresentada à diretoria do festival.
+                    </div>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="visao-mercado" class="doc-section">
+                    <h2 class="doc-heading">1. Visão de Mercado & Estratégia de Dados (The Big Picture)</h2>
+                    <p class="doc-text">Atualmente, o festival atrai dezenas de milhares de pessoas, mas os dados desses clientes ficam retidos em plataformas de terceiros. O App V2 é o canal para recuperar esse ativo:</p>
+                    <ul class="doc-list">
+                        <li><strong>Independência na Venda de Ingressos:</strong> Transição gradual para venda de ingressos (ou lotes exclusivos/pré-venda) diretamente no App para a base logada.</li>
+                        <li><strong>Redução de CAC (Custo de Aquisição de Cliente):</strong> Com uma base proprietária, o disparo de Push Notifications segmentados substitui parte do orçamento de mídia paga (Ads).</li>
+                        <li><strong>Monetização Oculta (Merch & Consumo):</strong> Uma loja oficial forte e proprietária dentro do app aumenta a margem de lucro em produtos oficiais e abre portas para venda antecipada de A&B (Alimentos e Bebidas).</li>
+                        <li><strong>Riqueza Tecnológica e Inteligência de Dados:</strong> O ecossistema integra dados de tráfego, vendas de merch, quiz e preferência de bandas para desenhar campanhas hiper-personalizadas.</li>
                     </ul>
-                </div>
-                <div class="glass-card">
-                    <h3>Contratada (Fornecedor)</h3>
-                    <ul class="data-list">
-                        <li><strong>Razão Social:</strong> STARKEN TECNOLOGIA</li>
-                        <li><strong>CNPJ:</strong> 62.839.769/0001-55</li>
-                        <li><strong>Endereço:</strong> Rua Almirante Barroso, 1004, Blumenau/SC</li>
-                        <li><strong>Representante:</strong> Victor Augusto Lapegna</li>
-                        <li><strong>Contato:</strong> victor@gcmg.online</li>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="arquitetura-planos" class="doc-section">
+                    <h2 class="doc-heading">2. A Nova Arquitetura de Planos Comerciais</h2>
+                    <p class="doc-text">Para suportar essa visão, a estrutura de renovação foi redesenhada em três níveis que escalam tanto em termos de <strong>capacidades de negócio</strong> quanto de <strong>tecnologia e inteligência</strong>.</p>
+                    <p class="doc-text">Todas as propostas incluem a <strong>Base de Sustentação Tecnológica</strong> (garantia de funcionamento do aplicativo nas lojas, correções de bugs e atualizações de compatibilidade).</p>
+
+                    <div class="code-block">
+<pre><code>===================================================================
+                    ECOSSISTEMA DIGITAL BANGERS
+===================================================================
+   BANGERS CORE     |    ALL ACCESS PRO    |   THE HEADLINER AI
+   R$ 2.000/mês     |     R$ 4.500/mês     |     R$ 9.000/mês
+--------------------+----------------------+-----------------------
+ E-commerce Básico  |  E-commerce Avançado | CENTRAL BANGERS IA 360°
+ & Sustentação      |  + Site, CRM & App   | TOTAL (Operação + CRM)
+===================================================================</code></pre>
+                    </div>
+
+                    <h3 class="doc-subheading">🛡️ 1. BANGERS CORE — R$ 2.000/mês</h3>
+                    <p class="doc-italic">A fundação tecnológica obrigatória combinada com a entrada no e-commerce básico.</p>
+                    
+                    <h4 class="doc-h4">Entregas de Sustentação Tecnológica (Inclusas)</h4>
+                    <ul class="doc-list">
+                        <li><strong>Correções de bugs</strong> e ajustes técnicos contínuos no aplicativo.</li>
+                        <li><strong>Atualizações operacionais</strong> do aplicativo nas lojas (App Store e Google Play).</li>
+                        <li>Gestão de publicação e compatibilidade com novos sistemas operacionais (Android/iOS).</li>
+                        <li>Monitoramento básico de estabilidade do aplicativo.</li>
+                        <li>Suporte remoto em horário comercial para a equipe do festival.</li>
+                        <li>Pequenos ajustes visuais e de texto conforme demanda.</li>
                     </ul>
+
+                    <h4 class="doc-h4">Entregas de Evolução/Negócio</h4>
+                    <ul class="doc-list">
+                        <li><strong>Loja E-commerce Básica:</strong> Integração de meio de pagamento próprio no app, permitindo vendas de merchandising (camisetas, bonés) com repasse direto para o festival.</li>
+                        <li><strong>Painel Administrativo Standard:</strong> Gestão básica de estoque, pedidos e cadastro de produtos.</li>
+                        <li><strong>Captação de Base (Fase 1):</strong> Início da coleta estruturada de e-mails e telefones dos usuários que baixam o app.</li>
+                    </ul>
+
+                    <h3 class="doc-subheading mt-4">⚡ 2. ALL ACCESS PRO — R$ 4.500/mês</h3>
+                    <p class="doc-italic">A experiência digital completa e integrada de site, aplicativo e CRM para engajamento e captação massiva de dados.</p>
+
+                    <h4 class="doc-h4">Entregas Inclusas</h4>
+                    <ul class="doc-list">
+                        <li><strong>Tudo do plano BANGERS CORE</strong> (incluindo toda a sustentação tecnológica, bugs, atualizações e suporte).</li>
+                        <li><strong>Novo Website Oficial Integrado:</strong> Desenvolvimento do novo site oficial do festival alinhado com a identidade visual 2027 e totalmente sincronizado com o banco de dados do app.</li>
+                        <li><strong>CRM Completo Integrado:</strong> Painel administrativo avançado para gestão de usuários, contatos, leads e segmentação.</li>
+                        <li><strong>Quiz Interativo Gamificado:</strong> Sistema dinâmico no app com timer, ranking e coleta de dados estratégicos dos fãs.</li>
+                        <li><strong>Minha Agenda (Sincronização & CRM):</strong> Integração da funcionalidade nativa do aplicativo (onde o fã monta sua agenda personalizada baseada nas bandas favoritas) com o banco de dados do CRM para mapeamento do perfil musical do fã em tempo real.</li>
+                        <li><strong>Disparos de Push Notifications:</strong> Sistema de notificações segmentadas disparadas diretamente pelo painel administrativo.</li>
+                        <li><strong>Loja E-commerce Avançada:</strong> Funcionalidades de carrinho abandonado, cross-sell (sugestões inteligentes de itens complementares) e analytics de conversão.</li>
+                        <li><strong>Suporte Prioritário (SLA Premium):</strong> Canal de atendimento prioritário com a Starken, monitoramento 24/7 de infraestrutura e plantão técnico garantido em dias críticos (viradas de lote e dias de festival).</li>
+                    </ul>
+
+                    <h3 class="doc-subheading mt-4">🧠 3. THE HEADLINER AI — R$ 9.000/mês</h3>
+
+                    <div class="alert alert-note">
+                        <strong>NOTA:</strong> <strong>Modelo de Custo & Integração:</strong> A Starken fará a <strong>integração</strong> da Central com o motor do <strong>Assessor Digital IA</strong> que já está em desenvolvimento interno pela Starken. O custo de consumo de tokens das APIs (OpenAI, Anthropic, etc.) será faturado e pago diretamente pelo cliente.
+                    </div>
+
+                    <h4 class="doc-h4">A Visão: CENTRAL BANGERS IA 360°</h4>
+                    <p class="doc-text">Não é um "chat de suporte". É uma <strong>Central de Inteligência Operacional</strong> que se torna o cérebro digital do maior festival de rock da América Latina.</p>
+                    <p class="doc-text">Imagine um painel analítico onde o gestor ou CEO digita:</p>
+                    <blockquote class="doc-quote">
+                        "IA, com base nos perfis mais ativos no quiz esta semana, quais ganchos de remarketing você sugere testarmos para o público do Dia do Thrash Metal?"
+                    </blockquote>
+                    <p class="doc-text">E a IA responde instantaneamente cruzando dados do CRM, engajamento e histórico.</p>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="modulo-criacao" class="doc-section">
+                    <h3 class="doc-subheading">🎨 3.4 — Módulo de Criação & Ideação com IA (Co-piloto da Equipe)</h3>
+                    <ul class="doc-list">
+                        <li><strong>Espaço Colaborativo Multiusuário:</strong> Acesso compartilhado para toda a equipe de criação (Jeff, designers e redatores), permitindo que trabalhem em conjunto nas mesmas campanhas.</li>
+                        <li><strong>Módulo de Ideação de Copy/Hook:</strong> Geração de variações de textos persuasivos, chamadas para ação (CTAs) e ganchos de anúncios baseado nas bandas preferidas do público.</li>
+                        <li><strong>Prototipagem Criativa:</strong> Auxílio na estruturação de briefings criativos e roteiros de vídeos promocionais baseados nas preferências extraídas do banco de dados.</li>
+                    </ul>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="omnichannel-ai" class="doc-section">
+                    <h3 class="doc-subheading">🚀 3.5 — Omnichannel AI Activation: Ativação Preditiva e Engajamento Conversacional</h3>
+                    <p class="doc-text">A IA atua como um motor de ativação de alta conversão nos principais canais de contato do festival (WhatsApp, Direct, Messenger), focando em marketing inteligente, atração de novos leads VIP e recuperação ativa.</p>
+
+                    <h4 class="doc-h4">Ativação Conversacional e Conversão:</h4>
+                    <ol class="doc-list">
+                        <li><strong>Ativação Inteligente da Base:</strong> Disparo de notificações e mensagens personalizadas baseadas no perfil e bandas favoritadas pelo usuário no app.</li>
+                        <li><strong>Qualificação de VIP & Leads:</strong> Conversas interativas e segmentadas para identificar clientes propensos a comprar ingressos premium (camarotes, backstage) e encaminhamento rápido para o time comercial da Starken.</li>
+                        <li><strong>Recuperação de Checkout Abandonado:</strong> Interações automáticas pelo WhatsApp para superação de dúvidas no ato da compra.</li>
+                    </ol>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="smart-crm" class="doc-section">
+                    <h3 class="doc-subheading">📊 3.6 — Smart CRM & Predição de Vendas</h3>
+                    <ul class="doc-list">
+                        <li>Sugestões preditivas com base no comportamento de compras do lote atual.</li>
+                        <li>Criação de segmentos dinâmicos automatizados no CRM (ex: fãs que favoritaram bandas clássicas e baixaram o app).</li>
+                        <li>Projeção de esgotamento de lotes e alertas preventivos para campanhas orgânicas e pagas.</li>
+                    </ul>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="social-automation" class="doc-section">
+                    <h3 class="doc-subheading">⚙️ 3.8 — Integração de Postagens & Agendamento Automático (Social Media Automation)</h3>
+                    <ul class="doc-list">
+                        <li>Integração direta com ferramentas como mLabs/Postgrain ou automação integrada via VPS proprietária ("Central Starken") para agendamento ágil de conteúdo gerado/validado no painel da Central Bangers.</li>
+                    </ul>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="modelo-parceria" class="doc-section">
+                    <h2 class="doc-heading">4. Modelo de Parceria e Estrutura Contratual (24 Meses com Performance Milestone)</h2>
+                    <p class="doc-text">Para garantir a viabilidade, o retorno sobre o investimento (ROI) e o desenvolvimento sustentável das inteligências artificiais e integrações, o modelo de contratação foi estruturado sob uma perspectiva de parceria de longo prazo.</p>
+
+                    <h3 class="doc-subheading">4.1. Prazo Contratual de 24 Meses</h3>
+                    <ul class="doc-list">
+                        <li><strong>Visão de Ciclo Anual:</strong> Um festival opera em ciclos anuais. O contrato de 24 meses permite que o ecossistema e a IA utilizem os dados históricos e comportamentais consolidados do primeiro ano para potencializar o ROI no segundo ciclo de vendas do festival.</li>
+                        <li><strong>Segurança e Sustentação:</strong> Protege o investimento inicial em customização de tecnologia pela Starken, garantindo atualizações contínuas de compatibilidade.</li>
+                    </ul>
+
+                    <h3 class="doc-subheading mt-4">4.2. Cláusula de Ajuste por Milestone de Performance (Aos 12 Meses)</h3>
+                    <ul class="doc-list">
+                        <li><strong>Base Fixa Inicial:</strong> R$ 9.000,00/mês nos primeiros 12 meses.</li>
+                        <li><strong>Gatilho de Performance (Mês 12):</strong> Avaliação de KPIs preestabelecidos (aumento nas vendas da loja própria de merch pelo app, volume de vendas gerados ou recuperados por conversação ativa e otimização das campanhas de tráfego pago).</li>
+                        <li><strong>Ajuste de Sucesso:</strong> Caso os resultados de ROI comprovem a eficiência do ecossistema, o fee mensal para os 12 meses subsequentes será reajustado para uma estrutura híbrida (fee fixo reajustado ou fixo + bônus de performance/sucesso), compartilhando de forma justa o valor tecnológico gerado.</li>
+                    </ul>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="roadmap" class="doc-section">
+                    <h2 class="doc-heading">5. Roadmap de Implementação</h2>
+                    
+                    <div class="table-responsive">
+                        <table class="doc-table">
+                            <thead>
+                                <tr>
+                                    <th>Fase</th>
+                                    <th>Descrição</th>
+                                    <th>Prazo Estimado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Fase 0</strong></td>
+                                    <td>Entrega App V1 (TestFlight -> Stores)</td>
+                                    <td><span class="status-badge success">✅ Em andamento</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fase 1</strong></td>
+                                    <td>Aprovação do plano + Dashboard de Apresentação Web</td>
+                                    <td><span class="status-badge info">Imediato</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fase 2</strong></td>
+                                    <td>Implementação BANGERS CORE (E-commerce + Sustentação)</td>
+                                    <td><span class="status-badge pending">Mês 1-2</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fase 3</strong></td>
+                                    <td>Implementação ALL ACCESS PRO (Site + CRM + Quiz)</td>
+                                    <td><span class="status-badge pending">Mês 2-4</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fase 4</strong></td>
+                                    <td>Implementação HEADLINER AI — Central IA 360° (IA + Integrações + Dashboards)</td>
+                                    <td><span class="status-badge pending">Mês 4-8</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <hr class="doc-divider">
+
+                <section id="open-questions" class="doc-section">
+                    <h2 class="doc-heading">6. Open Questions</h2>
+                    
+                    <div class="alert alert-important">
+                        <ol class="doc-list" style="margin-bottom: 0;">
+                            <li>A profundidade da visão da <strong>CENTRAL BANGERS IA 360°</strong> está alinhada ao posicionamento de riqueza tecnológica que você busca?</li>
+                            <li>Os milestones de validação de ROI no 12º mês para o contrato Enterprise de 24 meses são adequados para a mesa de negociação?</li>
+                        </ol>
+                    </div>
+                </section>
+
+                <div class="doc-footer">
+                    <p>Fim do Documento</p>
                 </div>
             </div>
-
-            <div class="glass-card mt-2 glow-border">
-                <h3>Termos Financeiros</h3>
-                <div class="finance-grid">
-                    <div class="finance-item">
-                        <span class="label">Objeto</span>
-                        <span class="value">Desenvolvimento PWA + App Nativo (iOS/Android)</span>
-                    </div>
-                    <div class="finance-item">
-                        <span class="label">Valor Total</span>
-                        <span class="value highlight">R$ 30.000,00</span>
-                    </div>
-                    <div class="finance-item">
-                        <span class="label">Fee Mensal V1</span>
-                        <span class="value text-gold">R$ 2.000,00/mês</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tab: Escopo Entregue -->
-        <section id="escopo" class="tab-content">
-            <h2 class="section-title">Escopo Técnico Entregue (V1)</h2>
-            <p class="section-desc">Módulos e funcionalidades desenvolvidas na versão 1.0.</p>
-            
-            <div class="scope-grid">
-                <div class="glass-card module-card">
-                    <div class="module-header">
-                        <div class="icon-placeholder">🌐</div>
-                        <h3>Web PWA</h3>
-                    </div>
-                    <ul class="feature-list">
-                        <li><strong>Home:</strong> Destaques de eventos, banners.</li>
-                        <li><strong>Line Up:</strong> Lista de artistas e palcos.</li>
-                        <li><strong>Minha Agenda:</strong> Shows favoritos.</li>
-                        <li><strong>Mapa:</strong> Localização interativa.</li>
-                        <li><strong>Loja & Checkout:</strong> Produtos com pagamento.</li>
-                        <li><strong>Ingressos:</strong> QR Code e gestão.</li>
-                        <li><strong>Autenticação:</strong> Login e Perfil.</li>
-                    </ul>
-                </div>
-
-                <div class="glass-card module-card">
-                    <div class="module-header">
-                        <div class="icon-placeholder">📱</div>
-                        <h3>App Flutter Nativo</h3>
-                    </div>
-                    <ul class="feature-list">
-                        <li><strong>Home:</strong> Carrossel de destaques.</li>
-                        <li><strong>Line Up:</strong> Favoritação e filtros.</li>
-                        <li><strong>Agenda:</strong> Arraste-e-solte e lembretes.</li>
-                        <li><strong>Mapa Nativo:</strong> Geolocalização e rotas.</li>
-                        <li><strong>Loja & Wallets:</strong> Apple Pay e Google Pay.</li>
-                        <li><strong>Ingressos:</strong> Integração Apple Wallet.</li>
-                        <li><strong>Push Notifications:</strong> Alertas em tempo real.</li>
-                    </ul>
-                </div>
-
-                <div class="glass-card module-card">
-                    <div class="module-header">
-                        <div class="icon-placeholder">⚙️</div>
-                        <h3>Painel Administrativo</h3>
-                    </div>
-                    <ul class="feature-list">
-                        <li><strong>Dashboard:</strong> Visão consolidada de KPIs.</li>
-                        <li><strong>Bandas:</strong> Cadastro e agendas.</li>
-                        <li><strong>Patrocinadores:</strong> Logos e contratos.</li>
-                        <li><strong>Broadcast:</strong> Envio de Push e E-mails em lote.</li>
-                        <li><strong>CRM (Básico):</strong> Listagem de contatos e exportação.</li>
-                        <li><strong>Configurações:</strong> Temas e limites.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tab: Renovação V2 -->
-        <section id="renovacao" class="tab-content">
-            <h2 class="section-title">Planos de Renovação (V2)</h2>
-            <p class="section-desc">Simulador de pacotes para o ecossistema digital de 2027.</p>
-
-            <div class="pricing-cards">
-                <!-- Plano 1 -->
-                <div class="glass-card pricing-card" data-plan="essential" onclick="selectPlan('essential')">
-                    <div class="plan-header">
-                        <h3>Essential</h3>
-                        <div class="price">R$ 1.500<span>/mês</span></div>
-                        <p class="plan-focus">Sustentação básica do App</p>
-                    </div>
-                    <ul class="plan-features">
-                        <li class="included">Manutenção do App</li>
-                        <li class="excluded">Novo Website Oficial</li>
-                        <li class="excluded">Integração App + Site</li>
-                        <li class="excluded">CRM Integrado</li>
-                        <li class="excluded">Quiz Gamificado</li>
-                    </ul>
-                    <button class="action-btn">Selecionar</button>
-                </div>
-
-                <!-- Plano 2 -->
-                <div class="glass-card pricing-card recommended" data-plan="experience" onclick="selectPlan('experience')">
-                    <div class="badge">Recomendado</div>
-                    <div class="plan-header">
-                        <h3>Experience</h3>
-                        <div class="price">R$ 2.500<span>/mês</span></div>
-                        <p class="plan-focus">App + Novo Web Integrado</p>
-                    </div>
-                    <ul class="plan-features">
-                        <li class="included">Manutenção do App</li>
-                        <li class="included">Novo Website Oficial</li>
-                        <li class="included">Integração App + Site</li>
-                        <li class="excluded">CRM Integrado</li>
-                        <li class="excluded">Quiz Gamificado</li>
-                    </ul>
-                    <button class="action-btn highlight-btn">Selecionar</button>
-                </div>
-
-                <!-- Plano 3 -->
-                <div class="glass-card pricing-card" data-plan="ecosystem" onclick="selectPlan('ecosystem')">
-                    <div class="plan-header">
-                        <h3>Ecosystem</h3>
-                        <div class="price">R$ 4.000<span>/mês</span></div>
-                        <p class="plan-focus">Plataforma Completa Premium</p>
-                    </div>
-                    <ul class="plan-features">
-                        <li class="included">Manutenção do App</li>
-                        <li class="included">Novo Website Oficial</li>
-                        <li class="included">Integração App + Site</li>
-                        <li class="included">CRM Completo & Push</li>
-                        <li class="included">Quiz Gamificado + VIP</li>
-                    </ul>
-                    <button class="action-btn">Selecionar</button>
-                </div>
-            </div>
-
-            <div id="plan-details" class="glass-card mt-2 hidden-initially">
-                <h3 id="detail-title">Resumo do Plano</h3>
-                <p id="detail-desc"></p>
-                <div class="finance-item mt-1">
-                    <span class="label">Diferença vs V1 (R$ 2.000):</span>
-                    <span id="detail-diff" class="value text-gold"></span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tab: Galeria -->
-        <section id="galeria" class="tab-content">
-            <h2 class="section-title">Galeria de Telas</h2>
-            <p class="section-desc">Visualização do App V1</p>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item"><img src="Prints/Home Loading.png" alt="Home Loading" loading="lazy"></div>
-                <div class="gallery-item"><img src="Prints/home 1.png" alt="Home 1" loading="lazy"></div>
-                <div class="gallery-item"><img src="Prints/home 2.png" alt="Home 2" loading="lazy"></div>
-                <div class="gallery-item"><img src="Prints/ingressos 1.png" alt="Ingressos 1" loading="lazy"></div>
-                <div class="gallery-item"><img src="Prints/menu mapa do evento.png" alt="Mapa" loading="lazy"></div>
-                <div class="gallery-item"><img src="Prints/loja 1.png" alt="Loja" loading="lazy"></div>
-            </div>
-        </section>
-
-    </main>
+        </main>
+    </div>
 
     <script>
-        // Tab Navigation
-        const tabBtns = document.querySelectorAll('.tab-btn');
-        const tabContents = document.querySelectorAll('.tab-content');
-
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                const targetId = btn.getAttribute('data-target');
+        // Smooth scrolling and active link highlighting
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
                 
-                // Reset active states
-                tabBtns.forEach(b => b.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
+                // Remove active class from all links
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
                 
-                // Set active states
-                btn.classList.add('active');
-                document.getElementById(targetId).classList.add('active');
+                // Add active class to clicked link
+                this.classList.add('active');
+                
+                // Smooth scroll to target
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                
+                if (targetSection) {
+                    // Calculate offset to account for some top padding if needed
+                    const container = document.querySelector('.main-content');
+                    const topPos = targetSection.offsetTop - 40;
+                    
+                    container.scrollTo({
+                        top: topPos,
+                        behavior: 'smooth'
+                    });
+                }
             });
         });
 
-        // Plan Simulator
-        const plans = {
-            essential: {
-                title: "Plano Essential",
-                desc: "Foco na sustentação operacional do aplicativo atual. Não inclui novas features web ou integrações avançadas.",
-                price: 1500,
-                diff: "Economia de R$ 500/mês"
-            },
-            experience: {
-                title: "Plano Experience",
-                desc: "Recomendado para unificar a experiência da marca, desenvolvendo o novo website alinhado com o aplicativo mobile.",
-                price: 2500,
-                diff: "Acréscimo de R$ 500/mês"
-            },
-            ecosystem: {
-                title: "Plano Ecosystem",
-                desc: "A solução definitiva de relacionamento. Transforma o app e site em uma plataforma completa de CRM e engajamento gamificado.",
-                price: 4000,
-                diff: "Acréscimo de R$ 2.000/mês"
-            }
+        // Intersection Observer to highlight active section on scroll
+        const sections = document.querySelectorAll('.doc-section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        const observerOptions = {
+            root: document.querySelector('.main-content'),
+            rootMargin: '0px 0px -60% 0px',
+            threshold: 0
         };
 
-        function selectPlan(planKey) {
-            document.querySelectorAll('.pricing-card').forEach(card => {
-                card.style.borderColor = 'rgba(255, 255, 255, 0.1)';
-                card.style.boxShadow = 'none';
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
             });
-            
-            const selectedCard = document.querySelector(`[data-plan="${planKey}"]`);
-            selectedCard.style.borderColor = 'var(--accent-primary)';
-            selectedCard.style.boxShadow = '0 0 20px rgba(255, 81, 47, 0.3)';
+        }, observerOptions);
 
-            const details = document.getElementById('plan-details');
-            details.classList.remove('hidden-initially');
-            
-            document.getElementById('detail-title').innerText = plans[planKey].title;
-            document.getElementById('detail-desc').innerText = plans[planKey].desc;
-            document.getElementById('detail-diff').innerText = plans[planKey].diff;
-            
-            if(plans[planKey].price < 2000) {
-                document.getElementById('detail-diff').className = 'value text-success';
-            } else {
-                document.getElementById('detail-diff').className = 'value text-gold';
-            }
-        }
+        sections.forEach(section => {
+            observer.observe(section);
+        });
     </script>
 </body>
 </html>
