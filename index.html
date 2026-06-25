@@ -39,6 +39,7 @@
                 <a href="#omnichannel-ai" class="nav-link">3.2 Omnichannel AI Activation</a>
                 <a href="#smart-crm" class="nav-link">3.3 Smart CRM & Predição</a>
                 <a href="#social-automation" class="nav-link">3.4 Integração & Automação</a>
+                <a href="#orquestracao-skills" class="nav-link">3.5 Orquestração de Skills</a>
                 
                 <div class="nav-category">Planos & Negócios</div>
                 <a href="#arquitetura-planos" class="nav-link">4. Nova Arquitetura de Planos</a>
@@ -261,6 +262,50 @@
 
                 <hr class="doc-divider">
 
+                <section id="orquestracao-skills" class="doc-section">
+                    <h3 class="doc-subheading">🛠️ 3.5 — Orquestração de Skills (A Engrenagem Invisível)</h3>
+                    <p class="doc-text">Toda a inteligência da Central IA e automações do festival é impulsionada por um motor local de <strong>Orquestração de Skills</strong>. Este motor utiliza os repositórios isolados do <strong>NotFair</strong> e do <strong>Awesome Skills</strong> como agentes autônomos para executar tarefas técnicas e de marketing diretamente na infraestrutura do festival:</p>
+                    
+                    <div class="features-grid" style="margin-bottom: 25px;">
+                        <div class="feature-card">
+                            <h3>🔒 Core Engine & Tracking (NotFair)</h3>
+                            <p>Automação de auditorias e setups de infraestrutura:</p>
+                            <ul style="margin-top: 10px; padding-left: 15px; font-size: 0.85rem; color: var(--text-muted);">
+                                <li><strong>Validate:</strong> Validador automático de ambiente, conexões e chaves seguras (isoladas em C:\dev\tenants\bangers).</li>
+                                <li><strong>GTM Deploy:</strong> Auto-deployer de tags GA4, Facebook Pixel e conversões na API do GTM.</li>
+                                <li><strong>Leads Listener:</strong> Escuta em tempo real no Firebase para sincronização instantânea de cadastros e quiz com o CRM.</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h3>📊 Marketing & Playbooks (Awesome Skills)</h3>
+                            <p>Biblioteca de inteligência para atração e conversão:</p>
+                            <ul style="margin-top: 10px; padding-left: 15px; font-size: 0.85rem; color: var(--text-muted);">
+                                <li><strong>Ad Campaign Creator:</strong> Scripts como <code>starken_campaign.py</code> geram campanhas estruturadas baseadas nos favoritados do App.</li>
+                                <li><strong>Keyword Intelligence:</strong> Mapeamento e estudo de volume de buscas para atração de novos leads.</li>
+                                <li><strong>Creative Prompting:</strong> Playbooks para geração autônoma de copys persuasivos e briefings de anúncios.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Mock de Console de Terminal Interativo -->
+                    <div class="code-block" style="background: #09080d; border-color: var(--border-glass-hover); border-radius: 12px;">
+<pre style="color: #00d8ff; font-family: monospace; font-size: 0.85rem; line-height: 1.5;">
+<span style="color: var(--text-muted);"># Exemplo: Rodando o validador de conexões do festival</span>
+<span style="color: var(--accent-primary); font-weight: bold;">PS C:\Bengers-OpenAir&gt;</span> python skills/NotFair/bin/nf.py validate bangers
+[*] Validando configurações do Tenant: bangers...
+  [ OK ] Campo 'tenant.name' validado (Bangers Open Air).
+  [ OK ] Campo 'tenant.slug' validado (bangers).
+  [ OK ] Campo 'platforms.meta_ads.ad_account_id' validado (act_1234567890).
+  [ OK ] Variável 'META_MARKETING_API_ACCESS_TOKEN' validada.
+  [ OK ] Variável 'GEMINI_API_KEY' validada.
+------------------------------------------------------------
+[OK] Validacao CONCLUIDA com sucesso! Pronto para execuções de automação.
+</pre>
+                    </div>
+                </section>
+
+                <hr class="doc-divider">
+
                 <section id="arquitetura-planos" class="doc-section">
                     <h2 class="doc-heading">4. A Nova Arquitetura de Planos Comerciais</h2>
                     <p class="doc-text">Após compreender o imenso poder tecnológico detalhado acima, apresentamos os planos comerciais projetados para absorver e implementar essas soluções. Eles escalam em termos de <strong>capacidades de negócio</strong> e de <strong>tecnologia</strong>.</p>
@@ -365,6 +410,13 @@
                                             <li>Setup inicial de banco de dados para base logada preliminar.</li>
                                         </ul>
                                     </div>
+                                    <div class="task-group">
+                                        <h4>Orquestração (NotFair)</h4>
+                                        <ul>
+                                            <li><code>python skills/NotFair/bin/nf.py validate bangers</code></li>
+                                            <li>Garantir a conexão e validação de chaves de ambiente seguras.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -420,6 +472,13 @@
                                             <li>Implementação de políticas de privacidade e conformidade com LGPD.</li>
                                         </ul>
                                     </div>
+                                    <div class="task-group">
+                                        <h4>Orquestração (NotFair)</h4>
+                                        <ul>
+                                            <li><code>python skills/NotFair/bin/nf.py gtm-deploy bangers --publish</code></li>
+                                            <li>Configurar pixels de conversão e GA4 na loja de merch.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -452,6 +511,13 @@
                                             <li>E-commerce Avançado (recuperação de carrinho e cross-selling).</li>
                                         </ul>
                                     </div>
+                                    <div class="task-group">
+                                        <h4>Orquestração (NotFair)</h4>
+                                        <ul>
+                                            <li><code>python skills/NotFair/bin/listen_leads.py watch</code></li>
+                                            <li>Alimentar o CRM com novos leads do Firebase/Quiz em tempo real.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -482,6 +548,13 @@
                                             <li>IA ativa no WhatsApp/Instagram para qualificação de VIP e vendas.</li>
                                             <li>Recuperação automática de checkout por conversação inteligente.</li>
                                             <li>Automação de agendamento de postagens integrada (mLabs/Central Starken).</li>
+                                        </ul>
+                                    </div>
+                                    <div class="task-group">
+                                        <h4>Orquestração (Awesome Skills)</h4>
+                                        <ul>
+                                            <li><code>python scripts/google-ads/starken_campaign.py</code></li>
+                                            <li>Disparar campanhas hiper-personalizadas e automação social.</li>
                                         </ul>
                                     </div>
                                 </div>
