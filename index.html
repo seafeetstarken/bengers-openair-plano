@@ -78,37 +78,127 @@
                     </ul>
                 </section>
 
-                <hr class="doc-divider">
-
-                <!-- ENRIQUECIMENTO V1 AQUI -->
-                <section id="entregas-v1" class="doc-section">
+                                <section id="entregas-v1" class="doc-section">
                     <h2 class="doc-heading">2. O Alicerce Tecnológico: Escopo em Fase de Entrega (V1)</h2>
-                    <p class="doc-text">A Fase 1 está estabelecendo a fundação necessária para a inteligência de dados. Não estamos entregando apenas um aplicativo isolado, mas sim pavimentando uma infraestrutura completa de comunicação, geolocalização e transações.</p>
+                    <p class="doc-text">A Fase 1 está estabelecendo a fundação técnica necessária para a inteligência de dados. O projeto está em fase avançada de homologação e submissão (TestFlight/Lojas). Clique em cada pilar para ver o status detalhado e os itens de transição:</p>
                     
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <h3>🛒 E-commerce Nativo Integrado</h3>
-                            <p>Infraestrutura de loja 100% configurada dentro do app para venda de merchandising oficial. Sem taxas de manutenção de plataformas terceiras, garantindo repasse direto e margem integral ao festival.</p>
+                    <div class="v1-status-grid">
+                        <div class="status-card active" data-target="pwa">
+                            <div class="status-card-header">
+                                <h3>🌐 Web / PWA (Site Público)</h3>
+                                <span class="status-percentage">95%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 95%;"></div>
+                            </div>
+                            <p class="status-summary-text">Landing page, lineup, agenda e catálogo do e-commerce concluídos.</p>
                         </div>
-                        <div class="feature-card">
-                            <h3>🗺️ Mapa Geolocalizado & Agenda</h3>
-                            <p>Mapa interativo do evento com rotas em tempo real. Sistema de "My Schedule", permitindo que o fã favorite suas bandas preferidas, gerando valiosos dados de preferência musical para a organização.</p>
+
+                        <div class="status-card" data-target="admin">
+                            <div class="status-card-header">
+                                <h3>⚙️ Admin Panel (CMS Starken)</h3>
+                                <span class="status-percentage">90%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                            <p class="status-summary-text">CRUDs de bandas, patrocinadores, envio de push e contatos ativos.</p>
                         </div>
-                        <div class="feature-card">
-                            <h3>🎟️ Apple Wallet & Google Pay</h3>
-                            <p>Integração de ponta com carteiras digitais nativas. O ingresso ou credencial do fã salvo no Wallet, permitindo acesso imediato via NFC/QR sem depender de sinal de internet no local do evento.</p>
+
+                        <div class="status-card" data-target="flutter">
+                            <div class="status-card-header">
+                                <h3>📱 App Nativo Flutter</h3>
+                                <span class="status-percentage">85%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                            <p class="status-summary-text">Telas base compiladas, autenticação real e builds TestFlight ativos.</p>
                         </div>
-                        <div class="feature-card">
-                            <h3>📲 PWA & App Flutter (Alta Performance)</h3>
-                            <p>O aplicativo foi construído com Flutter, tecnologia oficial do Google. Além de rodar liso em iOS e Android, criamos a versão Web (PWA), permitindo uso instantâneo pelo navegador, reduzindo a fricção de download.</p>
+
+                        <div class="status-card" data-target="firebase">
+                            <div class="status-card-header">
+                                <h3>🔥 Firebase Backend</h3>
+                                <span class="status-percentage">90%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                            <p class="status-summary-text">Modelagem NoSQL estruturada com regras de segurança validadas.</p>
                         </div>
-                        <div class="feature-card">
-                            <h3>🔔 Push Notifications Estratégicos</h3>
-                            <p>Abertura de um canal direto, superando a barreira dos algoritmos sociais. Permite disparos instantâneos: "Últimos 100 ingressos do lote!" ou "Camiseta do Powerwolf com 10% OFF pelos próximos 30 minutos".</p>
+
+                        <div class="status-card" data-target="infra">
+                            <div class="status-card-header">
+                                <h3>🚀 Infra & DevOps</h3>
+                                <span class="status-percentage">85%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                            <p class="status-summary-text">Deploys automatizados Vercel, Firebase Hosting e TestFlight ativos.</p>
                         </div>
-                        <div class="feature-card">
-                            <h3>⚙️ Starken CMS (Painel Admin)</h3>
-                            <p>Painel de controle total para a diretoria: gestão flexível de conteúdo, gerenciamento de banners de patrocinadores e envio de notificações em tempo real, sem depender de programadores.</p>
+                    </div>
+
+                    <!-- Detalhes Dinâmicos (controlados por JS) -->
+                    <div id="v1-details-panel" class="v1-status-details">
+                        <div class="details-header">
+                            <div class="details-title-wrapper">
+                                <h3 id="details-title">Web / PWA (Site Público)</h3>
+                                <span id="details-pct" class="details-badge">95% Concluído</span>
+                            </div>
+                        </div>
+                        <div class="details-columns">
+                            <div class="details-column temos">
+                                <h4>✅ O que já temos pronto</h4>
+                                <ul id="details-temos-list" class="details-list">
+                                    <!-- Dinâmico via JS -->
+                                </ul>
+                            </div>
+                            <div class="details-column falta">
+                                <h4>🛠️ Transição para a V2 (Itens Faltantes)</h4>
+                                <ul id="details-falta-list" class="details-list">
+                                    <!-- Dinâmico via JS -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloco de Prioridades de Lançamento -->
+                    <div class="priorities-container">
+                        <div class="priorities-header">
+                            <h3>🎯 Prioridades Estratégicas para Fechamento & Lançamento</h3>
+                            <p class="doc-text" style="font-size: 0.95rem; margin-bottom: 0;">Para encerrar a Fase 1 e iniciar o onboarding do ecossistema V2, os esforços técnicos e de negócio estão organizados nos seguintes focos:</p>
+                        </div>
+                        <div class="priorities-grid">
+                            <div class="priority-box p1">
+                                <div class="priority-tier">Foco 1 — Lançamento</div>
+                                <h4>🔥 Lojas & Monetização</h4>
+                                <p>Homologar a publicação final do App Flutter nas lojas e integrar o gateway de pagamento real para vendas do e-commerce.</p>
+                                <ul>
+                                    <li>Submissão Apple App Store & Google Play</li>
+                                    <li>Gateway de Pagamento transparente (Stripe/Pagar.me)</li>
+                                </ul>
+                            </div>
+                            <div class="priority-box p2">
+                                <div class="priority-tier">Foco 2 — Experiência</div>
+                                <h4>🗺️ Mapa & Navegação</h4>
+                                <p>Implementar a interação do mapa por SVG nativo, integrar deep links e habilitar armazenamento de imagens.</p>
+                                <ul>
+                                    <li>Integração SVG para Mapa Interativo</li>
+                                    <li>Configuração de Deep Links para telas internas</li>
+                                    <li>Mídia de bandas no Firebase Storage</li>
+                                </ul>
+                            </div>
+                            <div class="priority-box p3">
+                                <div class="priority-tier">Foco 3 — Escala</div>
+                                <h4>⚡ Telemetria & Automação</h4>
+                                <p>Estruturar gatilhos server-side para automação de mensagens e habilitar logs de estabilidade.</p>
+                                <ul>
+                                    <li>Setup do Firebase Analytics e Crashlytics</li>
+                                    <li>Cloud Functions para processamento automático de filas</li>
+                                    <li>CI/CD automatizado para compilação do App</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -460,6 +550,131 @@
         }, observerOptions);
 
         sections.forEach(section => observer.observe(section));
+
+        // Dados do Status de Entrega da V1
+        const statusData = {
+            pwa: {
+                title: "Web / PWA (Site Público)",
+                pct: "95%",
+                temos: [
+                    "<strong>Landing / Home:</strong> Splash screen, countdown, lineup cards, patrocinadores e navegação responsiva.",
+                    "<strong>LineUp:</strong> Lista organizada por dia e por palco, com filtros e cards informativos.",
+                    "<strong>Minha Agenda:</strong> Sistema de favoritos para criação de agenda pessoal do usuário.",
+                    "<strong>Ingressos & Loja:</strong> Catálogo de ingressos e produtos com fluxo de carrinho (Context API).",
+                    "<strong>Ajude a Escolher:</strong> Quiz interativo que recomenda bandas com base nas respostas.",
+                    "<strong>News & Alertas:</strong> Feed de notícias dinâmicas alimentado diretamente pelo Firestore.",
+                    "<strong>Autenticação:</strong> Fluxo completo do Firebase Auth (Login, Registro e Perfil)."
+                ],
+                falta: [
+                    "<strong>Mapa Interativo Real:</strong> O layout do mapa existe, mas precisa de integração com SVG interativo.",
+                    "<strong>Gateway de Pagamento Real:</strong> Atualmente o checkout é visual (UI). Falta conectar com gateway (Stripe/Pagar.me).",
+                    "<strong>PWA Offline Completo:</strong> O service worker faz cache básico, mas falta persistência offline complexa."
+                ]
+            },
+            admin: {
+                title: "Admin Panel (Gestão Starken CMS)",
+                pct: "90%",
+                temos: [
+                    "<strong>Dashboard:</strong> Visualização rápida de KPIs (bandas, notícias cadastradas, alertas).",
+                    "<strong>Bandas (CRUD):</strong> Criação e edição completa de bandas, bios, palcos e horários.",
+                    "<strong>Alertas & Notícias:</strong> Publicação e agendamento de comunicados no app e no site.",
+                    "<strong>Patrocinadores:</strong> Gestão e cadastro de marcas parceiras ordenadas por tier.",
+                    "<strong>Contatos & Survey:</strong> Caixa de entrada para mensagens e resultados da enquete.",
+                    "<strong>Broadcast Push:</strong> Painel de disparo em massa de Push Notifications via FCM.",
+                    "<strong>Segurança:</strong> Proteção de rotas validando administrador por lista de e-mails permitidos."
+                ],
+                falta: [
+                    "<strong>Gestão Visual de Usuários:</strong> Falta interface administrativa para gerenciar dados dos clientes cadastrados.",
+                    "<strong>Analytics Integrado:</strong> Exibição de gráficos de acessos e taxas de cliques no dashboard do admin.",
+                    "<strong>Upload Direto (Firebase Storage):</strong> Integração para uploads de fotos diretamente para o storage (atualmente usa URL externa)."
+                ]
+            },
+            flutter: {
+                title: "App Nativo Flutter (iOS / Android)",
+                pct: "85%",
+                temos: [
+                    "<strong>Arquitetura Premium:</strong> Utilização do Flutter 3.10+, gerenciamento de estado com Riverpod e rotas com GoRouter.",
+                    "<strong>Telas Completas:</strong> Home, LineUp, Agenda, Ingressos, Loja, News, Mapa e Configurações de Perfil.",
+                    "<strong>Autenticação Real:</strong> Registro e login síncronos com o Firestore, validação de e-mail e password reset.",
+                    "<strong>Sincronização:</strong> Favoritos sincronizados com a nuvem e com persistência offline local no dispositivo.",
+                    "<strong>Push Notifications:</strong> Integração ativa com Firebase Cloud Messaging e controle de permissões no perfil.",
+                    "<strong>Compilação & Builds:</strong> Arquivos IPA (iOS) v1.0.0+2 e APK (Android) gerados e homologados no TestFlight."
+                ],
+                falta: [
+                    "<strong>Navegação e Deep Links:</strong> Configuração para que links externos abram telas específicas dentro do app.",
+                    "<strong>Checkout Financeiro:</strong> Integração com SDK de pagamento nativo para compras diretas pelo celular.",
+                    "<strong>Submissão Lojas Públicas:</strong> Homologação final e publicação na App Store / Play Store pública."
+                ]
+            },
+            firebase: {
+                title: "Firebase Backend (Banco e Regras)",
+                pct: "90%",
+                temos: [
+                    "<strong>Modelagem Firestore:</strong> Coleções estruturadas para <code>bands</code>, <code>alerts</code>, <code>sponsors</code> e <code>users</code>.",
+                    "<strong>Segurança de Dados:</strong> Firestore Security Rules escritas e validadas para proteger leituras e escritas.",
+                    "<strong>Fila de Push (push_queue):</strong> Estrutura do banco de dados configurada para receber disparos do painel."
+                ],
+                falta: [
+                    "<strong>Firebase Storage:</strong> Criação dos buckets e pastas organizadas para armazenar imagens dos banners e bandas.",
+                    "<strong>Cloud Functions:</strong> Funções automáticas em NodeJS para escutar a fila de push e disparar via servidor.",
+                    "<strong>Telemetria / Funis:</strong> Integração fina de analytics de ações do usuário para gerar os relatórios de conversão."
+                ]
+            },
+            infra: {
+                title: "Infraestrutura & DevOps",
+                pct: "85%",
+                temos: [
+                    "<strong>Deploy Contínuo Web:</strong> Integração do repositório Git com a Vercel para deploys automáticos da versão Web/PWA.",
+                    "<strong>Hospedagem Estática:</strong> Firebase Hosting configurado para redundância de arquivos estáticos.",
+                    "<strong>TestFlight iOS:</strong> Fluxo configurado e operacional para convites a testadores externos."
+                ],
+                falta: [
+                    "<strong>CI/CD para Apps:</strong> Automação dos builds de iOS e Android via GitHub Actions / Codemagic para evitar builds locais.",
+                    "<strong>Setup Crashlytics:</strong> Configuração fina do Sentry/Crashlytics para capturar falhas em tempo real em produção."
+                ]
+            }
+        };
+
+        function renderStatusDetails(target) {
+            const data = statusData[target];
+            if (!data) return;
+            
+            document.getElementById('details-title').textContent = data.title;
+            document.getElementById('details-pct').textContent = `${data.pct} Concluído`;
+            
+            const temosList = document.getElementById('details-temos-list');
+            const faltaList = document.getElementById('details-falta-list');
+            
+            temosList.innerHTML = '';
+            faltaList.innerHTML = '';
+            
+            data.temos.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'check';
+                li.innerHTML = item;
+                temosList.appendChild(li);
+            });
+            
+            data.falta.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'pending';
+                li.innerHTML = item;
+                faltaList.appendChild(li);
+            });
+        }
+
+        // Event Listeners para os Cards
+        const statusCards = document.querySelectorAll('.status-card');
+        statusCards.forEach(card => {
+            card.addEventListener('click', function() {
+                statusCards.forEach(c => c.classList.remove('active'));
+                this.classList.add('active');
+                renderStatusDetails(this.getAttribute('data-target'));
+            });
+        });
+
+        // Render inicial
+        renderStatusDetails('pwa');
     </script>
 </body>
 </html>
