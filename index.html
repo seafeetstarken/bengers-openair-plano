@@ -39,7 +39,8 @@
                 <a href="#omnichannel-ai" class="nav-link">3.2 Omnichannel AI Activation</a>
                 <a href="#smart-crm" class="nav-link">3.3 Smart CRM & Predição</a>
                 <a href="#social-automation" class="nav-link">3.4 Integração & Automação</a>
-                <a href="#orquestracao-skills" class="nav-link">3.5 Orquestração de Skills</a>
+                <a href="#push-inteligente" class="nav-link">3.5 Central de Push Inteligente</a>
+                <a href="#orquestracao-skills" class="nav-link">3.6 Orquestração de Skills</a>
                 
                 <div class="nav-category">Planos & Negócios</div>
                 <a href="#arquitetura-planos" class="nav-link">4. Nova Arquitetura de Planos</a>
@@ -79,7 +80,7 @@
                     </ul>
                 </section>
 
-                                <section id="entregas-v1" class="doc-section">
+                <section id="entregas-v1" class="doc-section">
                     <h2 class="doc-heading">2. O Alicerce Tecnológico: Escopo em Fase de Entrega (V1)</h2>
                     <p class="doc-text">A Fase 1 está estabelecendo a fundação técnica necessária para a inteligência de dados. O projeto está em fase avançada de homologação e submissão (TestFlight/Lojas). Clique em cada pilar para ver o status detalhado e os itens de transição:</p>
                     
@@ -87,12 +88,12 @@
                         <div class="status-card active" data-target="pwa">
                             <div class="status-card-header">
                                 <h3>🌐 Web / PWA (Site Público)</h3>
-                                <span class="status-percentage">95%</span>
+                                <span class="status-percentage">100%</span>
                             </div>
                             <div class="progress-container">
-                                <div class="progress-bar" style="width: 95%;"></div>
+                                <div class="progress-bar" style="width: 100%;"></div>
                             </div>
-                            <p class="status-summary-text">Landing page, lineup, agenda e catálogo do e-commerce concluídos.</p>
+                            <p class="status-summary-text">Landing page, lineup, agenda e catálogo do e-commerce 100% concluídos.</p>
                         </div>
 
                         <div class="status-card" data-target="admin">
@@ -145,7 +146,7 @@
                         <div class="details-header">
                             <div class="details-title-wrapper">
                                 <h3 id="details-title">Web / PWA (Site Público)</h3>
-                                <span id="details-pct" class="details-badge">95% Concluído</span>
+                                <span id="details-pct" class="details-badge">100% Concluído</span>
                             </div>
                         </div>
                         <div class="details-columns">
@@ -174,18 +175,17 @@
                             <div class="priority-box p1">
                                 <div class="priority-tier">Foco 1 — Lançamento</div>
                                 <h4>🔥 Lojas & Monetização</h4>
-                                <p>Homologar a publicação final do App Flutter nas lojas e integrar o gateway de pagamento real para vendas do e-commerce.</p>
+                                <p>Homologar a publicação final do App Flutter nas lojas e integrar o gateway de pagamento próprio (Asaas / Stripe) para a loja oficial.</p>
                                 <ul>
                                     <li>Submissão Apple App Store & Google Play</li>
-                                    <li>Gateway de Pagamento transparente (Stripe/Pagar.me)</li>
+                                    <li>Gateway de Pagamento transparente para Loja (Asaas / Stripe)</li>
                                 </ul>
                             </div>
                             <div class="priority-box p2">
                                 <div class="priority-tier">Foco 2 — Experiência</div>
-                                <h4>🗺️ Mapa & Navegação</h4>
-                                <p>Implementar a interação do mapa por SVG nativo, integrar deep links e habilitar armazenamento de imagens.</p>
+                                <h4>🗺️ Deep Links & Mídia</h4>
+                                <p>Habilitar o armazenamento de mídias dinâmicas no Storage e integrar deep links para navegação direta.</p>
                                 <ul>
-                                    <li>Integração SVG para Mapa Interativo</li>
                                     <li>Configuração de Deep Links para telas internas</li>
                                     <li>Mídia de bandas no Firebase Storage</li>
                                 </ul>
@@ -201,6 +201,38 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+
+                    <!-- Análise Comparativa de Gateways -->
+                    <div class="table-responsive" style="margin-top: 30px;">
+                        <h4 class="doc-h4" style="margin-top: 10px; margin-bottom: 15px; text-transform: uppercase; font-size: 0.95rem; letter-spacing: 1px;">📊 Análise de Gateways de Pagamento Propostos (Loja Oficial)</h4>
+                        <table class="doc-table">
+                            <thead>
+                                <tr>
+                                    <th>Gateway</th>
+                                    <th>Taxa Pix</th>
+                                    <th>Taxa Cartão (Crédito)</th>
+                                    <th>Taxa Boleto</th>
+                                    <th>Diferenciais e Integração</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Asaas</strong> <span class="status-badge info" style="font-size: 0.7rem; padding: 2px 6px;">Nacional</span></td>
+                                    <td>R$ 0,99 a R$ 1,99 <span style="font-size: 0.8rem; color: var(--accent-success); font-weight: 600;">(Fixa)</span></td>
+                                    <td>2,99% a 3,99% + R$ 0,40 <span style="font-size: 0.8rem; color: var(--text-muted);">(D+30)</span></td>
+                                    <td>R$ 1,99 a R$ 3,49 <span style="font-size: 0.8rem; color: var(--text-muted);">(Pago)</span></td>
+                                    <td>Emissão automática de Notas Fiscais, foco no mercado brasileiro, taxas fixas vantajosas para Pix e boletos.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Stripe</strong> <span class="status-badge success" style="font-size: 0.7rem; padding: 2px 6px;">Global</span></td>
+                                    <td>1,19% + R$ 0,30 <span style="font-size: 0.8rem; color: var(--text-muted);">(Variável)</span></td>
+                                    <td>3,99% + R$ 0,39 <span style="font-size: 0.8rem; color: var(--text-muted);">(D+30)</span></td>
+                                    <td>Indisponível <span style="font-size: 0.8rem; color: var(--text-muted);">(Não nativo)</span></td>
+                                    <td>Altíssima estabilidade internacional, SDK robusto nativo para iOS/Android (fácil integração in-app).</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
 
@@ -230,12 +262,14 @@
 
                 <section id="omnichannel-ai" class="doc-section">
                     <h3 class="doc-subheading">🚀 3.2 — Omnichannel AI Activation: Ativação Preditiva</h3>
-                    <p class="doc-text">A IA atua como um vendedor invisível de alta conversão nos principais canais de contato (WhatsApp, Direct, Messenger).</p>
+                    <p class="doc-text">A IA do festival atua de forma integrada nos principais pontos de contato para converter oportunidades de negócio e automatizar o relacionamento.</p>
                     <ol class="doc-list">
-                        <li><strong>Recuperação de Checkout Abandonado:</strong> 
-                            <br><span class="doc-italic" style="color: var(--accent-secondary); font-size: 0.95rem;">Exemplo de Retorno: Um usuário colocou um ingresso no carrinho mas não finalizou a compra. Após 2 horas, a IA da Starken envia um WhatsApp humanizado automático superando a objeção ou oferecendo um cupom de 5%, convertendo a venda de forma autônoma.</span></li>
-                        <li><strong>Qualificação de VIP & Leads Premium:</strong> Conversas interativas para identificar clientes propensos a comprar upgrades (camarotes, passaportes backstage) e encaminhamento qualificado para os fechadores.</li>
-                        <li><strong>Ativação Inteligente da Base:</strong> Disparo de mensagens personalizadas no WhatsApp com base no perfil do Quiz Gamificado no App.</li>
+                        <li><strong>Recuperação de Checkout Abandonado (Loja Oficial):</strong> 
+                            <br><span class="doc-italic" style="color: var(--accent-secondary); font-size: 0.95rem;">Exemplo de Fluxo: Um fã colocou uma camiseta oficial no carrinho da loja do App mas abandonou a compra. Após 2 horas, a <strong>IA do BANGERS</strong> envia uma notificação ou mensagem de WhatsApp humanizada automatizada para tirar dúvidas e oferecer um incentivo de frete grátis ou cupom, fechando a transação.</span></li>
+                        <li><strong>Nurturing & Direcionamento VIP:</strong> 
+                            Como a venda de ingressos padrão é operada pelo parceiro externo <strong>Clube do Ingresso</strong>, a IA atuará na captação de leads de alto valor (interessados em passaportes VIP, camarotes ou acessos ao backstage), qualificando o lead via chat e direcionando-o diretamente para o time comercial (fechadores humanos).</li>
+                        <li><strong>Integração Clube do Ingresso:</strong> 
+                            Estudo e desenvolvimento de integração via API da central **Bangers 360** com o Clube do Ingresso para sincronizar dados de vendas, conciliação e comportamento de compras de lotes em tempo real.</li>
                     </ol>
                 </section>
 
@@ -262,8 +296,21 @@
 
                 <hr class="doc-divider">
 
+                <section id="push-inteligente" class="doc-section">
+                    <h3 class="doc-subheading">🧠 3.5 — Central de Push com IA Integrada e Autossuficiente</h3>
+                    <p class="doc-text">Visando mitigar os altos custos das mensagens ativas no WhatsApp (tarifas da API oficial da Meta e regras da janela de 24h), o ecossistema V2 foca no canal de **Push Notifications Inteligentes**. A IA opera de forma autônoma para manter a base de fãs altamente engajada com zero custo de disparo:</p>
+                    <ul class="doc-list">
+                        <li><strong>Geração Autônoma de Campanhas:</strong> A IA analisa o momento do festival (ex: proximidade de uma banda tocar, virada de lote, engajamento do lineup) e sugere automaticamente copys persuasivos e ganchos de chamada para os pushs.</li>
+                        <li><strong>Moments & Real-time Triggering:</strong> Sugestões dinâmicas de notificações em tempo real (ex: *"Show do Powerwolf em 1 hora no Palco Rock! Toque aqui para ver a rota rápida"*).</li>
+                        <li><strong>Auto-planejamento de Disparos:</strong> Envio inteligente e automatizado nos horários de maior taxa de abertura de cada fã, maximizando o CTR.</li>
+                        <li><strong>Dashboard Preditivo de CTR:</strong> Análise prévia por IA que estima o percentual de abertura e impacto antes mesmo do disparo ser efetuado.</li>
+                    </ul>
+                </section>
+
+                <hr class="doc-divider">
+
                 <section id="orquestracao-skills" class="doc-section">
-                    <h3 class="doc-subheading">🛠️ 3.5 — Orquestração de Skills (A Engrenagem Invisível)</h3>
+                    <h3 class="doc-subheading">🛠️ 3.6 — Orquestração de Skills (A Engrenagem Invisível)</h3>
                     <p class="doc-text">Toda a inteligência da Central IA e automações do festival é impulsionada por um motor local de <strong>Orquestração de Skills</strong>. Este motor utiliza os repositórios isolados do <strong>NotFair</strong> e do <strong>Awesome Skills</strong> como agentes autônomos para executar tarefas técnicas e de marketing diretamente na infraestrutura do festival:</p>
                     
                     <div class="features-grid" style="margin-bottom: 25px;">
@@ -460,7 +507,7 @@
                                     <div class="task-group">
                                         <h4>E-commerce Nativo</h4>
                                         <ul>
-                                            <li>Integração de gateway de pagamento transparente (Stripe/Pagar.me) no App.</li>
+                                            <li>Integração de gateway de pagamento transparente (Asaas / Stripe) no App.</li>
                                             <li>Painel administrativo standard de pedidos e estoque de merchandising.</li>
                                             <li>Sistema de cálculo automatizado de frete (Correios/Melhor Envio).</li>
                                         </ul>
@@ -545,8 +592,8 @@
                                     <div class="task-group">
                                         <h4>Ativação Omnichannel</h4>
                                         <ul>
-                                            <li>IA ativa no WhatsApp/Instagram para qualificação de VIP e vendas.</li>
-                                            <li>Recuperação automática de checkout por conversação inteligente.</li>
+                                            <li>IA ativa no WhatsApp/Instagram para qualificação de leads VIP e captação direcionada.</li>
+                                            <li>Recuperação automática de checkout da loja oficial por notificação/conversação inteligente.</li>
                                             <li>Automação de agendamento de postagens integrada (mLabs/Central Starken).</li>
                                         </ul>
                                     </div>
@@ -628,20 +675,19 @@
         const statusData = {
             pwa: {
                 title: "Web / PWA (Site Público)",
-                pct: "95%",
+                pct: "100%",
                 temos: [
                     "<strong>Landing / Home:</strong> Splash screen, countdown, lineup cards, patrocinadores e navegação responsiva.",
                     "<strong>LineUp:</strong> Lista organizada por dia e por palco, com filtros e cards informativos.",
                     "<strong>Minha Agenda:</strong> Sistema de favoritos para criação de agenda pessoal do usuário.",
-                    "<strong>Ingressos & Loja:</strong> Catálogo de ingressos e produtos com fluxo de carrinho (Context API).",
+                    "<strong>Ingressos & Loja:</strong> Catálogo de produtos com fluxo de carrinho (Context API).",
                     "<strong>Ajude a Escolher:</strong> Quiz interativo que recomenda bandas com base nas respostas.",
                     "<strong>News & Alertas:</strong> Feed de notícias dinâmicas alimentado diretamente pelo Firestore.",
-                    "<strong>Autenticação:</strong> Fluxo completo do Firebase Auth (Login, Registro e Perfil)."
+                    "<strong>Autenticação:</strong> Fluxo completo do Firebase Auth (Login, Registro e Perfil).",
+                    "<strong>PWA Nativo:</strong> Configuração de PWA pronta para uso instantâneo pelo navegador."
                 ],
                 falta: [
-                    "<strong>Mapa Interativo Real:</strong> O layout do mapa existe, mas precisa de integração com SVG interativo.",
-                    "<strong>Gateway de Pagamento Real:</strong> Atualmente o checkout é visual (UI). Falta conectar com gateway (Stripe/Pagar.me).",
-                    "<strong>PWA Offline Completo:</strong> O service worker faz cache básico, mas falta persistência offline complexa."
+                    "<strong>Fase 1 Concluída:</strong> Não há pendências críticas para o MVP. Próximo passo: Integração com gateway próprio de loja (Asaas/Stripe) na Fase 2."
                 ]
             },
             admin: {
@@ -675,7 +721,7 @@
                 ],
                 falta: [
                     "<strong>Navegação e Deep Links:</strong> Configuração para que links externos abram telas específicas dentro do app.",
-                    "<strong>Checkout Financeiro:</strong> Integração com SDK de pagamento nativo para compras diretas pelo celular.",
+                    "<strong>Gateway de Pagamento da Loja:</strong> Integração com gateway próprio (Asaas/Stripe) para compras de merch pelo celular.",
                     "<strong>Submissão Lojas Públicas:</strong> Homologação final e publicação na App Store / Play Store pública."
                 ]
             },

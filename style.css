@@ -372,31 +372,59 @@ body {
 /* Tables */
 .table-responsive {
     overflow-x: auto;
-    margin: 24px 0;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.05);
+    margin: 30px 0;
+    border-radius: 16px;
+    border: 1px solid var(--border-glass);
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.table-responsive:hover {
+    border-color: var(--border-glass-hover);
+    box-shadow: 0 12px 40px 0 rgba(0, 240, 255, 0.1);
 }
 
 .doc-table {
     width: 100%;
     border-collapse: collapse;
-    background: rgba(0,0,0,0.3);
+    background: transparent;
 }
 
 .doc-table th {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.03);
     color: #fff;
     font-family: var(--font-heading);
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
-    padding: 16px;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--border-glass);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .doc-table td {
-    padding: 16px;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 18px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+}
+
+.doc-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.doc-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.doc-table tbody tr:hover td {
+    color: var(--text-main);
 }
 
 .doc-table tr:last-child td {
